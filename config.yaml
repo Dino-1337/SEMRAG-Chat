@@ -1,0 +1,43 @@
+# SEMRAG RAG System Configuration
+
+# Embedding Model
+embedding:
+  model_name: "all-MiniLM-L6-v2"
+  device: "cpu"  # or "cuda" if GPU available
+
+# LLM Configuration (Ollama)
+llm:
+  model: "llama3.2:1b"  # Changed from mistral:7b to fix memory issues
+  base_url: "http://localhost:11434"
+  temperature: 0.7
+  max_tokens: 1000
+
+# Semantic Chunking Parameters (SEMRAG Paper Specs)
+chunking:
+  similarity_threshold: 0.7
+  max_chunk_tokens: 1024      # Max chunk size per paper
+  sub_chunk_tokens: 128        # Sub-chunk size per paper
+  chunk_overlap: 128           # Overlap size per paper (was 20)
+  buffer_size: 2
+
+# Knowledge Graph Parameters
+knowledge_graph:
+  entity_types: ["PERSON", "ORG", "GPE", "DATE", "EVENT", "WORK_OF_ART"]
+  min_entity_frequency: 1
+  community_resolution: 1.0  # For Leiden algorithm
+
+# Retrieval Parameters
+retrieval:
+  local_search:
+    top_k: 5
+    similarity_threshold: 0.6
+  global_search:
+    top_k: 3
+    similarity_threshold: 0.5
+  combine_strategy: "weighted"  # "weighted" or "union"
+
+# Data Paths
+data:
+  pdf_path: "data/Ambedkar_works.pdf"
+  cache_dir: ".cache"
+

@@ -1,0 +1,25 @@
+"""Main pipeline for AmbedkarGPT RAG System."""
+
+from typing import Dict, List, Any, Optional
+import yaml
+from pathlib import Path
+import json
+import pickle
+
+from src.utils.data_loader import PDFLoader
+from src.chunking.semantic_chunker import SemanticChunker, Chunk
+from src.chunking.buffer_merger import BufferMerger
+from src.graph.entity_extractor import EntityExtractor, Entity
+        if not self.processed:
+            return {}
+        
+        return {
+            'total_chunks': len(self.chunks),
+            'total_entities': len(self.entities),
+            'total_relationships': len(self.relationships),
+            'graph_nodes': self.graph.number_of_nodes(),
+            'graph_edges': self.graph.number_of_edges(),
+            'communities': len(self.communities),
+            'community_summaries': len(self.community_summaries)
+        }
+

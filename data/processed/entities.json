@@ -1,0 +1,4288 @@
+{
+  "Genesis": {
+    "text": "Genesis",
+    "label": "ORG",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "the Anthropology Seminar": {
+    "text": "the Anthropology Seminar",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "Goldenweizer": {
+    "text": "Goldenweizer",
+    "label": "PERSON",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "The Columbia University": {
+    "text": "The Columbia University",
+    "label": "ORG",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "New York": {
+    "text": "New York",
+    "label": "GPE",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "U.S.A.": {
+    "text": "U.S.A.",
+    "label": "GPE",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "May 1916": {
+    "text": "May 1916",
+    "label": "DATE",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "Indian Antiquary": {
+    "text": "Indian Antiquary",
+    "label": "PERSON",
+    "chunk_ids": [
+      0
+    ],
+    "frequency": 1
+  },
+  "May 1917": {
+    "text": "May 1917",
+    "label": "DATE",
+    "chunk_ids": [
+      0,
+      136
+    ],
+    "frequency": 2
+  },
+  "Seminar": {
+    "text": "Seminar",
+    "label": "GPE",
+    "chunk_ids": [
+      3
+    ],
+    "frequency": 1
+  },
+  "Castes in India : Their": {
+    "text": "Castes in India : Their",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      3
+    ],
+    "frequency": 1
+  },
+  "Caste": {
+    "text": "Caste",
+    "label": "PERSON",
+    "chunk_ids": [
+      514,
+      3,
+      520,
+      521,
+      10,
+      11,
+      522,
+      523,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      528,
+      21,
+      22,
+      24,
+      26,
+      30,
+      31,
+      32,
+      35,
+      37,
+      40,
+      554,
+      46,
+      49,
+      51,
+      572,
+      574,
+      66,
+      67,
+      68,
+      70,
+      79,
+      80,
+      598,
+      612,
+      618,
+      621,
+      625,
+      627,
+      116,
+      117,
+      631,
+      120,
+      121,
+      122,
+      633,
+      124,
+      125,
+      126,
+      634,
+      129,
+      642,
+      643,
+      646,
+      139,
+      140,
+      652,
+      668,
+      669,
+      672,
+      675,
+      676,
+      679,
+      682,
+      684,
+      180,
+      184,
+      185,
+      698,
+      699,
+      257,
+      258,
+      289,
+      295,
+      298,
+      299,
+      300,
+      306,
+      307,
+      308,
+      309,
+      313,
+      334,
+      339,
+      340,
+      351,
+      369,
+      475,
+      476,
+      477,
+      478,
+      479,
+      481,
+      483,
+      488,
+      491,
+      493,
+      494,
+      497,
+      498,
+      499,
+      504,
+      509,
+      510
+    ],
+    "frequency": 108
+  },
+  "India": {
+    "text": "India",
+    "label": "GPE",
+    "chunk_ids": [
+      641,
+      5,
+      6,
+      7,
+      8,
+      135,
+      393,
+      268,
+      271,
+      276,
+      278,
+      280,
+      25,
+      26,
+      281,
+      28,
+      29,
+      30,
+      282,
+      284,
+      286,
+      287,
+      288,
+      549,
+      298,
+      299,
+      300,
+      303,
+      432,
+      435,
+      436,
+      55,
+      318,
+      320,
+      66,
+      67,
+      68,
+      71,
+      74,
+      75,
+      76,
+      77,
+      334,
+      463,
+      85,
+      86,
+      217,
+      90,
+      474,
+      349,
+      98,
+      612,
+      102,
+      635,
+      109,
+      508,
+      114,
+      503,
+      120,
+      123,
+      252,
+      125,
+      255
+    ],
+    "frequency": 63
+  },
+  "Mongolians": {
+    "text": "Mongolians",
+    "label": "ORG",
+    "chunk_ids": [
+      6
+    ],
+    "frequency": 1
+  },
+  "centuries ago": {
+    "text": "centuries ago",
+    "label": "DATE",
+    "chunk_ids": [
+      7
+    ],
+    "frequency": 1
+  },
+  "Senart": {
+    "text": "Senart",
+    "label": "PERSON",
+    "chunk_ids": [
+      88,
+      11
+    ],
+    "frequency": 2
+  },
+  "Ketkar": {
+    "text": "Ketkar",
+    "label": "PERSON",
+    "chunk_ids": [
+      11,
+      13,
+      21,
+      23,
+      122,
+      60
+    ],
+    "frequency": 6
+  },
+  "Nesfield": {
+    "text": "Nesfield",
+    "label": "PERSON",
+    "chunk_ids": [
+      12,
+      17,
+      18,
+      88,
+      89,
+      91
+    ],
+    "frequency": 6
+  },
+  "H.": {
+    "text": "H.",
+    "label": "PERSON",
+    "chunk_ids": [
+      88,
+      12
+    ],
+    "frequency": 2
+  },
+  "Castes": {
+    "text": "Castes",
+    "label": "PERSON",
+    "chunk_ids": [
+      301,
+      303,
+      15,
+      306,
+      308,
+      474,
+      476,
+      125
+    ],
+    "frequency": 8
+  },
+  "the Caste": {
+    "text": "the Caste",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      17
+    ],
+    "frequency": 1
+  },
+  "Prohibition of Intermarriage": {
+    "text": "Prohibition of Intermarriage",
+    "label": "ORG",
+    "chunk_ids": [
+      22
+    ],
+    "frequency": 1
+  },
+  "Negroes": {
+    "text": "Negroes",
+    "label": "GPE",
+    "chunk_ids": [
+      25
+    ],
+    "frequency": 1
+  },
+  "Whites": {
+    "text": "Whites",
+    "label": "ORG",
+    "chunk_ids": [
+      25
+    ],
+    "frequency": 1
+  },
+  "the United\nStates": {
+    "text": "the United\nStates",
+    "label": "GPE",
+    "chunk_ids": [
+      25
+    ],
+    "frequency": 1
+  },
+  "Endogamy": {
+    "text": "Endogamy",
+    "label": "PERSON",
+    "chunk_ids": [
+      26
+    ],
+    "frequency": 1
+  },
+  "today": {
+    "text": "today",
+    "label": "DATE",
+    "chunk_ids": [
+      289,
+      165,
+      619,
+      349,
+      540,
+      309,
+      216,
+      58,
+      27,
+      28,
+      125,
+      94
+    ],
+    "frequency": 12
+  },
+  "Exogamy": {
+    "text": "Exogamy",
+    "label": "PERSON",
+    "chunk_ids": [
+      27
+    ],
+    "frequency": 1
+  },
+  "Sagotras": {
+    "text": "Sagotras",
+    "label": "PERSON",
+    "chunk_ids": [
+      29
+    ],
+    "frequency": 1
+  },
+  "Gotras": {
+    "text": "Gotras",
+    "label": "GPE",
+    "chunk_ids": [
+      29
+    ],
+    "frequency": 1
+  },
+  "Grahastha": {
+    "text": "Grahastha",
+    "label": "PERSON",
+    "chunk_ids": [
+      51
+    ],
+    "frequency": 1
+  },
+  "Sanskrit": {
+    "text": "Sanskrit",
+    "label": "ORG",
+    "chunk_ids": [
+      315,
+      51
+    ],
+    "frequency": 2
+  },
+  "the Hindu Society": {
+    "text": "the Hindu Society",
+    "label": "ORG",
+    "chunk_ids": [
+      577,
+      101,
+      394,
+      245,
+      57,
+      219
+    ],
+    "frequency": 6
+  },
+  "Sannyasa": {
+    "text": "Sannyasa",
+    "label": "PERSON",
+    "chunk_ids": [
+      58
+    ],
+    "frequency": 1
+  },
+  "Sati": {
+    "text": "Sati",
+    "label": "ORG",
+    "chunk_ids": [
+      107,
+      58,
+      59,
+      66
+    ],
+    "frequency": 4
+  },
+  "Coomaraswamy": {
+    "text": "Coomaraswamy",
+    "label": "ORG",
+    "chunk_ids": [
+      59
+    ],
+    "frequency": 1
+  },
+  "the Eastern Woman": {
+    "text": "the Eastern Woman",
+    "label": "ORG",
+    "chunk_ids": [
+      59
+    ],
+    "frequency": 1
+  },
+  "the British Sociological Review": {
+    "text": "the British Sociological Review",
+    "label": "ORG",
+    "chunk_ids": [
+      59
+    ],
+    "frequency": 1
+  },
+  "1913": {
+    "text": "1913",
+    "label": "DATE",
+    "chunk_ids": [
+      59
+    ],
+    "frequency": 1
+  },
+  "Uma": {
+    "text": "Uma",
+    "label": "GPE",
+    "chunk_ids": [
+      59
+    ],
+    "frequency": 1
+  },
+  "the 18th century": {
+    "text": "the 18th century",
+    "label": "DATE",
+    "chunk_ids": [
+      63
+    ],
+    "frequency": 1
+  },
+  "the Origin of Caste": {
+    "text": "the Origin of Caste",
+    "label": "ORG",
+    "chunk_ids": [
+      67
+    ],
+    "frequency": 1
+  },
+  "Origin": {
+    "text": "Origin",
+    "label": "PERSON",
+    "chunk_ids": [
+      67
+    ],
+    "frequency": 1
+  },
+  "The Origin of the Mechanism for Endogamy": {
+    "text": "The Origin of the Mechanism for Endogamy",
+    "label": "ORG",
+    "chunk_ids": [
+      67
+    ],
+    "frequency": 1
+  },
+  "1909": {
+    "text": "1909",
+    "label": "DATE",
+    "chunk_ids": [
+      68
+    ],
+    "frequency": 1
+  },
+  "Society": {
+    "text": "Society",
+    "label": "ORG",
+    "chunk_ids": [
+      692,
+      683,
+      68,
+      324
+    ],
+    "frequency": 4
+  },
+  "Brahmins": {
+    "text": "Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      655,
+      528,
+      656,
+      421,
+      424,
+      300,
+      429,
+      441,
+      442,
+      698,
+      699,
+      72,
+      80,
+      81,
+      343,
+      344,
+      345,
+      474,
+      602,
+      603,
+      97,
+      230,
+      108,
+      496,
+      497,
+      114,
+      498,
+      499,
+      500,
+      503,
+      509
+    ],
+    "frequency": 31
+  },
+  "Brahmin": {
+    "text": "Brahmin",
+    "label": "PERSON",
+    "chunk_ids": [
+      394,
+      395,
+      651,
+      397,
+      655,
+      657,
+      414,
+      417,
+      423,
+      425,
+      429,
+      302,
+      698,
+      443,
+      699,
+      73,
+      209,
+      210,
+      601,
+      97,
+      102,
+      109,
+      499,
+      373,
+      631,
+      504,
+      508
+    ],
+    "frequency": 27
+  },
+  "Manu": {
+    "text": "Manu",
+    "label": "PERSON",
+    "chunk_ids": [
+      515,
+      516,
+      519,
+      524,
+      77,
+      78,
+      431,
+      79,
+      81,
+      509
+    ],
+    "frequency": 10
+  },
+  "Hindu Society": {
+    "text": "Hindu Society",
+    "label": "ORG",
+    "chunk_ids": [
+      353,
+      218,
+      498,
+      79
+    ],
+    "frequency": 4
+  },
+  "Caste Dharma": {
+    "text": "Caste Dharma",
+    "label": "PERSON",
+    "chunk_ids": [
+      80
+    ],
+    "frequency": 1
+  },
+  "the Caste System": {
+    "text": "the Caste System",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      512,
+      513,
+      514,
+      143,
+      147,
+      290,
+      292,
+      293,
+      295,
+      296,
+      298,
+      305,
+      180,
+      184,
+      187,
+      334,
+      83,
+      245,
+      630
+    ],
+    "frequency": 19
+  },
+  "Vedas": {
+    "text": "Vedas",
+    "label": "PERSON",
+    "chunk_ids": [
+      546,
+      516,
+      517,
+      520,
+      171,
+      529,
+      87,
+      537,
+      538
+    ],
+    "frequency": 9
+  },
+  "Matthew Arnold": {
+    "text": "Matthew Arnold",
+    "label": "PERSON",
+    "chunk_ids": [
+      87
+    ],
+    "frequency": 1
+  },
+  "Denzil Ibbetson": {
+    "text": "Denzil Ibbetson",
+    "label": "PERSON",
+    "chunk_ids": [
+      88
+    ],
+    "frequency": 1
+  },
+  "Petitio": {
+    "text": "Petitio",
+    "label": "PERSON",
+    "chunk_ids": [
+      89
+    ],
+    "frequency": 1
+  },
+  "Principii": {
+    "text": "Principii",
+    "label": "GPE",
+    "chunk_ids": [
+      89
+    ],
+    "frequency": 1
+  },
+  "Herbert Spencer": {
+    "text": "Herbert Spencer",
+    "label": "PERSON",
+    "chunk_ids": [
+      92
+    ],
+    "frequency": 1
+  },
+  "Kshatriya": {
+    "text": "Kshatriya",
+    "label": "ORG",
+    "chunk_ids": [
+      421,
+      423,
+      425,
+      394,
+      395,
+      429,
+      443,
+      92,
+      94
+    ],
+    "frequency": 9
+  },
+  "Vaishya": {
+    "text": "Vaishya",
+    "label": "GPE",
+    "chunk_ids": [
+      417,
+      421,
+      425,
+      394,
+      651,
+      397,
+      399,
+      92
+    ],
+    "frequency": 8
+  },
+  "Shudra": {
+    "text": "Shudra",
+    "label": "ORG",
+    "chunk_ids": [
+      416,
+      421,
+      422,
+      423,
+      425,
+      429,
+      92,
+      414
+    ],
+    "frequency": 8
+  },
+  "Walter Bagehot": {
+    "text": "Walter Bagehot",
+    "label": "PERSON",
+    "chunk_ids": [
+      98
+    ],
+    "frequency": 1
+  },
+  "Gabriel Tarde": {
+    "text": "Gabriel Tarde",
+    "label": "PERSON",
+    "chunk_ids": [
+      99
+    ],
+    "frequency": 1
+  },
+  "Tarde": {
+    "text": "Tarde",
+    "label": "PERSON",
+    "chunk_ids": [
+      108,
+      100,
+      109
+    ],
+    "frequency": 3
+  },
+  "daily": {
+    "text": "daily",
+    "label": "DATE",
+    "chunk_ids": [
+      658,
+      101
+    ],
+    "frequency": 2
+  },
+  "days": {
+    "text": "days",
+    "label": "DATE",
+    "chunk_ids": [
+      105
+    ],
+    "frequency": 1
+  },
+  "this day": {
+    "text": "this day",
+    "label": "DATE",
+    "chunk_ids": [
+      105
+    ],
+    "frequency": 1
+  },
+  "1915": {
+    "text": "1915",
+    "label": "DATE",
+    "chunk_ids": [
+      106
+    ],
+    "frequency": 1
+  },
+  "Laws of Imitation": {
+    "text": "Laws of Imitation",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      106
+    ],
+    "frequency": 1
+  },
+  "Parsis": {
+    "text": "Parsis",
+    "label": "ORG",
+    "chunk_ids": [
+      115
+    ],
+    "frequency": 1
+  },
+  "Symbolically": {
+    "text": "Symbolically",
+    "label": "ORG",
+    "chunk_ids": [
+      116
+    ],
+    "frequency": 1
+  },
+  "Group A": {
+    "text": "Group A",
+    "label": "ORG",
+    "chunk_ids": [
+      116
+    ],
+    "frequency": 1
+  },
+  "Group B": {
+    "text": "Group B",
+    "label": "ORG",
+    "chunk_ids": [
+      116
+    ],
+    "frequency": 1
+  },
+  "Guru (Prophet": {
+    "text": "Guru (Prophet",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      118
+    ],
+    "frequency": 1
+  },
+  "a Supreme Authority": {
+    "text": "a Supreme Authority",
+    "label": "ORG",
+    "chunk_ids": [
+      126
+    ],
+    "frequency": 1
+  },
+  "Mahatma Gandhi": {
+    "text": "Mahatma Gandhi",
+    "label": "PERSON",
+    "chunk_ids": [
+      129,
+      485
+    ],
+    "frequency": 2
+  },
+  "Know Truth": {
+    "text": "Know Truth",
+    "label": "ORG",
+    "chunk_ids": [
+      129
+    ],
+    "frequency": 1
+  },
+  "Truth": {
+    "text": "Truth",
+    "label": "GPE",
+    "chunk_ids": [
+      129,
+      604,
+      678
+    ],
+    "frequency": 3
+  },
+  "Untruth as Untruth": {
+    "text": "Untruth as Untruth",
+    "label": "ORG",
+    "chunk_ids": [
+      129
+    ],
+    "frequency": 1
+  },
+  "DARE": {
+    "text": "DARE",
+    "label": "PERSON",
+    "chunk_ids": [
+      129
+    ],
+    "frequency": 1
+  },
+  "1944": {
+    "text": "1944",
+    "label": "DATE",
+    "chunk_ids": [
+      129
+    ],
+    "frequency": 1
+  },
+  "Lahore": {
+    "text": "Lahore",
+    "label": "GPE",
+    "chunk_ids": [
+      160,
+      129,
+      161,
+      578,
+      608,
+      168,
+      141,
+      206,
+      145,
+      149,
+      156,
+      159
+    ],
+    "frequency": 12
+  },
+  "two months": {
+    "text": "two months",
+    "label": "DATE",
+    "chunk_ids": [
+      130
+    ],
+    "frequency": 1
+  },
+  "Gujarati": {
+    "text": "Gujarati",
+    "label": "GPE",
+    "chunk_ids": [
+      130
+    ],
+    "frequency": 1
+  },
+  "Tamil": {
+    "text": "Tamil",
+    "label": "GPE",
+    "chunk_ids": [
+      130
+    ],
+    "frequency": 1
+  },
+  "Marathi": {
+    "text": "Marathi",
+    "label": "ORG",
+    "chunk_ids": [
+      130,
+      211
+    ],
+    "frequency": 2
+  },
+  "Malayalam": {
+    "text": "Malayalam",
+    "label": "ORG",
+    "chunk_ids": [
+      130
+    ],
+    "frequency": 1
+  },
+  "Appendix": {
+    "text": "Appendix",
+    "label": "PERSON",
+    "chunk_ids": [
+      132
+    ],
+    "frequency": 1
+  },
+  "Gandhi": {
+    "text": "Gandhi",
+    "label": "PERSON",
+    "chunk_ids": [
+      132,
+      133,
+      134
+    ],
+    "frequency": 3
+  },
+  "Harijan": {
+    "text": "Harijan",
+    "label": "GPE",
+    "chunk_ids": [
+      608,
+      132,
+      620,
+      621,
+      593
+    ],
+    "frequency": 5
+  },
+  "Sant Ram": {
+    "text": "Sant Ram",
+    "label": "PERSON",
+    "chunk_ids": [
+      132,
+      678,
+      138,
+      180,
+      181,
+      150,
+      182
+    ],
+    "frequency": 7
+  },
+  "Appendix I. Besides": {
+    "text": "Appendix I. Besides",
+    "label": "PERSON",
+    "chunk_ids": [
+      133
+    ],
+    "frequency": 1
+  },
+  "Essay": {
+    "text": "Essay",
+    "label": "PERSON",
+    "chunk_ids": [
+      136
+    ],
+    "frequency": 1
+  },
+  "1937": {
+    "text": "1937",
+    "label": "DATE",
+    "chunk_ids": [
+      136
+    ],
+    "frequency": 1
+  },
+  "Castes in India": {
+    "text": "Castes in India",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      136
+    ],
+    "frequency": 1
+  },
+  "Prithwiraj Road B.": {
+    "text": "Prithwiraj Road B.",
+    "label": "PERSON",
+    "chunk_ids": [
+      137
+    ],
+    "frequency": 1
+  },
+  "New Delhi": {
+    "text": "New Delhi",
+    "label": "GPE",
+    "chunk_ids": [
+      138
+    ],
+    "frequency": 1
+  },
+  "December 1944": {
+    "text": "December 1944",
+    "label": "DATE",
+    "chunk_ids": [
+      138
+    ],
+    "frequency": 1
+  },
+  "December 12, 1935": {
+    "text": "December 12, 1935",
+    "label": "DATE",
+    "chunk_ids": [
+      138
+    ],
+    "frequency": 1
+  },
+  "Saheb": {
+    "text": "Saheb",
+    "label": "PERSON",
+    "chunk_ids": [
+      138
+    ],
+    "frequency": 1
+  },
+  "the 5th December": {
+    "text": "the 5th December",
+    "label": "DATE",
+    "chunk_ids": [
+      138
+    ],
+    "frequency": 1
+  },
+  "Kranti": {
+    "text": "Kranti",
+    "label": "PERSON",
+    "chunk_ids": [
+      139
+    ],
+    "frequency": 1
+  },
+  "Conferences": {
+    "text": "Conferences",
+    "label": "ORG",
+    "chunk_ids": [
+      139
+    ],
+    "frequency": 1
+  },
+  "Executive Committee": {
+    "text": "Executive Committee",
+    "label": "ORG",
+    "chunk_ids": [
+      140
+    ],
+    "frequency": 1
+  },
+  "Independent Harijans of Punjab": {
+    "text": "Independent Harijans of Punjab",
+    "label": "ORG",
+    "chunk_ids": [
+      141
+    ],
+    "frequency": 1
+  },
+  "Indra Singh": {
+    "text": "Indra Singh",
+    "label": "PERSON",
+    "chunk_ids": [
+      142
+    ],
+    "frequency": 1
+  },
+  "Bombay": {
+    "text": "Bombay",
+    "label": "GPE",
+    "chunk_ids": [
+      161,
+      191,
+      163,
+      198,
+      204,
+      142,
+      206,
+      144,
+      148,
+      149,
+      212,
+      344,
+      157,
+      158,
+      159
+    ],
+    "frequency": 15
+  },
+  "Xmas": {
+    "text": "Xmas",
+    "label": "PERSON",
+    "chunk_ids": [
+      142
+    ],
+    "frequency": 1
+  },
+  "The Jat-Pat-Todak Mandal": {
+    "text": "The Jat-Pat-Todak Mandal",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      143
+    ],
+    "frequency": 1
+  },
+  "Caste Hindu Social Reformers": {
+    "text": "Caste Hindu Social Reformers",
+    "label": "ORG",
+    "chunk_ids": [
+      143
+    ],
+    "frequency": 1
+  },
+  "the Caste Hindus": {
+    "text": "the Caste Hindus",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      143
+    ],
+    "frequency": 1
+  },
+  "the middle of May 1936": {
+    "text": "the middle of May 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      145
+    ],
+    "frequency": 1
+  },
+  "The Reception Committee of the Mandal": {
+    "text": "The Reception Committee of the Mandal",
+    "label": "ORG",
+    "chunk_ids": [
+      146
+    ],
+    "frequency": 1
+  },
+  "Ji": {
+    "text": "Ji",
+    "label": "PERSON",
+    "chunk_ids": [
+      150
+    ],
+    "frequency": 1
+  },
+  "Todak Mandal": {
+    "text": "Todak Mandal",
+    "label": "PERSON",
+    "chunk_ids": [
+      151
+    ],
+    "frequency": 1
+  },
+  "all quarters": {
+    "text": "all quarters",
+    "label": "DATE",
+    "chunk_ids": [
+      151
+    ],
+    "frequency": 1
+  },
+  "Bhai Parmanand": {
+    "text": "Bhai Parmanand",
+    "label": "PERSON",
+    "chunk_ids": [
+      152
+    ],
+    "frequency": 1
+  },
+  "Hindu Maha Sabha": {
+    "text": "Hindu Maha Sabha",
+    "label": "PERSON",
+    "chunk_ids": [
+      152
+    ],
+    "frequency": 1
+  },
+  "Mahatma\nHans Raj": {
+    "text": "Mahatma\nHans Raj",
+    "label": "PERSON",
+    "chunk_ids": [
+      152
+    ],
+    "frequency": 1
+  },
+  "Gokal Chand": {
+    "text": "Gokal Chand",
+    "label": "PERSON",
+    "chunk_ids": [
+      152,
+      156
+    ],
+    "frequency": 2
+  },
+  "Raja Narendra Nath": {
+    "text": "Raja Narendra Nath",
+    "label": "PERSON",
+    "chunk_ids": [
+      152
+    ],
+    "frequency": 1
+  },
+  "M.L.C.": {
+    "text": "M.L.C.",
+    "label": "GPE",
+    "chunk_ids": [
+      152
+    ],
+    "frequency": 1
+  },
+  "Narang": {
+    "text": "Narang",
+    "label": "GPE",
+    "chunk_ids": [
+      156
+    ],
+    "frequency": 1
+  },
+  "Ambedkar": {
+    "text": "Ambedkar",
+    "label": "PERSON",
+    "chunk_ids": [
+      156,
+      168,
+      578,
+      579,
+      580,
+      581,
+      582,
+      585,
+      587,
+      588,
+      590,
+      591,
+      592,
+      593,
+      595,
+      605,
+      606,
+      607,
+      608,
+      609,
+      615,
+      616,
+      617,
+      619
+    ],
+    "frequency": 24
+  },
+  "Har Bhagwan": {
+    "text": "Har Bhagwan",
+    "label": "PERSON",
+    "chunk_ids": [
+      168,
+      176,
+      158,
+      159
+    ],
+    "frequency": 4
+  },
+  "the 9th of\nApril": {
+    "text": "the 9th of\nApril",
+    "label": "DATE",
+    "chunk_ids": [
+      158
+    ],
+    "frequency": 1
+  },
+  "April 14, 1936": {
+    "text": "April 14, 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      161
+    ],
+    "frequency": 1
+  },
+  "Sahib": {
+    "text": "Sahib",
+    "label": "ORG",
+    "chunk_ids": [
+      161
+    ],
+    "frequency": 1
+  },
+  "the 12th": {
+    "text": "the 12th",
+    "label": "DATE",
+    "chunk_ids": [
+      161
+    ],
+    "frequency": 1
+  },
+  "Amritsar": {
+    "text": "Amritsar",
+    "label": "ORG",
+    "chunk_ids": [
+      200,
+      162
+    ],
+    "frequency": 2
+  },
+  "the 25th": {
+    "text": "the 25th",
+    "label": "DATE",
+    "chunk_ids": [
+      163
+    ],
+    "frequency": 1
+  },
+  "Conference": {
+    "text": "Conference",
+    "label": "ORG",
+    "chunk_ids": [
+      163,
+      197,
+      198,
+      199,
+      177,
+      219
+    ],
+    "frequency": 6
+  },
+  "Veda": {
+    "text": "Veda",
+    "label": "PERSON",
+    "chunk_ids": [
+      515,
+      163,
+      517
+    ],
+    "frequency": 3
+  },
+  "the Reception Committee": {
+    "text": "the Reception Committee",
+    "label": "ORG",
+    "chunk_ids": [
+      194,
+      579,
+      166,
+      582,
+      203,
+      205,
+      179
+    ],
+    "frequency": 7
+  },
+  "Press": {
+    "text": "Press",
+    "label": "ORG",
+    "chunk_ids": [
+      167
+    ],
+    "frequency": 1
+  },
+  "Eight days later": {
+    "text": "Eight days later",
+    "label": "DATE",
+    "chunk_ids": [
+      197,
+      167
+    ],
+    "frequency": 2
+  },
+  "the\n25th": {
+    "text": "the\n25th",
+    "label": "DATE",
+    "chunk_ids": [
+      168
+    ],
+    "frequency": 1
+  },
+  "May": {
+    "text": "May",
+    "label": "DATE",
+    "chunk_ids": [
+      169
+    ],
+    "frequency": 1
+  },
+  "the day": {
+    "text": "the day",
+    "label": "DATE",
+    "chunk_ids": [
+      169
+    ],
+    "frequency": 1
+  },
+  "the middle of May": {
+    "text": "the middle of May",
+    "label": "DATE",
+    "chunk_ids": [
+      169
+    ],
+    "frequency": 1
+  },
+  "kin": {
+    "text": "kin",
+    "label": "PERSON",
+    "chunk_ids": [
+      476,
+      174
+    ],
+    "frequency": 2
+  },
+  "April 1936": {
+    "text": "April 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      176,
+      647
+    ],
+    "frequency": 2
+  },
+  "the 22nd April": {
+    "text": "the 22nd April",
+    "label": "DATE",
+    "chunk_ids": [
+      176
+    ],
+    "frequency": 1
+  },
+  "Reception Committee": {
+    "text": "Reception Committee",
+    "label": "ORG",
+    "chunk_ids": [
+      177
+    ],
+    "frequency": 1
+  },
+  "Committee": {
+    "text": "Committee",
+    "label": "ORG",
+    "chunk_ids": [
+      195,
+      580,
+      199,
+      200,
+      201,
+      180,
+      183
+    ],
+    "frequency": 7
+  },
+  "Hindu Religion": {
+    "text": "Hindu Religion",
+    "label": "ORG",
+    "chunk_ids": [
+      546,
+      188
+    ],
+    "frequency": 2
+  },
+  "Reformer": {
+    "text": "Reformer",
+    "label": "PERSON",
+    "chunk_ids": [
+      190
+    ],
+    "frequency": 1
+  },
+  "the 9th\nApril": {
+    "text": "the 9th\nApril",
+    "label": "DATE",
+    "chunk_ids": [
+      191
+    ],
+    "frequency": 1
+  },
+  "the 14th": {
+    "text": "the 14th",
+    "label": "DATE",
+    "chunk_ids": [
+      196
+    ],
+    "frequency": 1
+  },
+  "Mandal": {
+    "text": "Mandal",
+    "label": "ORG",
+    "chunk_ids": [
+      199
+    ],
+    "frequency": 1
+  },
+  "the Sikh Prachar Conference": {
+    "text": "the Sikh Prachar Conference",
+    "label": "ORG",
+    "chunk_ids": [
+      200
+    ],
+    "frequency": 1
+  },
+  "the Committee": {
+    "text": "the Committee",
+    "label": "ORG",
+    "chunk_ids": [
+      200
+    ],
+    "frequency": 1
+  },
+  "between the 14th": {
+    "text": "between the 14th",
+    "label": "DATE",
+    "chunk_ids": [
+      200
+    ],
+    "frequency": 1
+  },
+  "22nd April": {
+    "text": "22nd April",
+    "label": "DATE",
+    "chunk_ids": [
+      200
+    ],
+    "frequency": 1
+  },
+  "Caste Hindus": {
+    "text": "Caste Hindus",
+    "label": "PERSON",
+    "chunk_ids": [
+      203
+    ],
+    "frequency": 1
+  },
+  "Caste\nHindus": {
+    "text": "Caste\nHindus",
+    "label": "PERSON",
+    "chunk_ids": [
+      204
+    ],
+    "frequency": 1
+  },
+  "Untouchables": {
+    "text": "Untouchables",
+    "label": "GPE",
+    "chunk_ids": [
+      204
+    ],
+    "frequency": 1
+  },
+  "Rajgriha": {
+    "text": "Rajgriha",
+    "label": "PERSON",
+    "chunk_ids": [
+      204
+    ],
+    "frequency": 1
+  },
+  "Dadar": {
+    "text": "Dadar",
+    "label": "PERSON",
+    "chunk_ids": [
+      204
+    ],
+    "frequency": 1
+  },
+  "14\n15th May 1936": {
+    "text": "14\n15th May 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      204
+    ],
+    "frequency": 1
+  },
+  "1936": {
+    "text": "1936",
+    "label": "DATE",
+    "chunk_ids": [
+      205
+    ],
+    "frequency": 1
+  },
+  "Speech": {
+    "text": "Speech",
+    "label": "ORG",
+    "chunk_ids": [
+      205
+    ],
+    "frequency": 1
+  },
+  "the Conference\n\nANNIHILATION OF": {
+    "text": "the Conference\n\nANNIHILATION OF",
+    "label": "ORG",
+    "chunk_ids": [
+      205
+    ],
+    "frequency": 1
+  },
+  "Mahatma": {
+    "text": "Mahatma",
+    "label": "PERSON",
+    "chunk_ids": [
+      640,
+      646,
+      647,
+      649,
+      650,
+      651,
+      652,
+      654,
+      655,
+      656,
+      657,
+      663,
+      664,
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      676,
+      679,
+      681,
+      682,
+      683,
+      684,
+      685,
+      687,
+      688,
+      693,
+      694,
+      697,
+      701,
+      207,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      373,
+      634,
+      635,
+      636,
+      637,
+      639
+    ],
+    "frequency": 47
+  },
+  "Varnas": {
+    "text": "Varnas",
+    "label": "ORG",
+    "chunk_ids": [
+      614,
+      423,
+      430,
+      209,
+      403,
+      443
+    ],
+    "frequency": 6
+  },
+  "Guru": {
+    "text": "Guru",
+    "label": "PERSON",
+    "chunk_ids": [
+      210,
+      211
+    ],
+    "frequency": 2
+  },
+  "Ramdas": {
+    "text": "Ramdas",
+    "label": "PERSON",
+    "chunk_ids": [
+      210,
+      211
+    ],
+    "frequency": 2
+  },
+  "Shivaji": {
+    "text": "Shivaji",
+    "label": "PERSON",
+    "chunk_ids": [
+      210,
+      266,
+      333
+    ],
+    "frequency": 3
+  },
+  "Dasbodh": {
+    "text": "Dasbodh",
+    "label": "ORG",
+    "chunk_ids": [
+      211
+    ],
+    "frequency": 1
+  },
+  "Antyaja": {
+    "text": "Antyaja",
+    "label": "ORG",
+    "chunk_ids": [
+      212
+    ],
+    "frequency": 1
+  },
+  "Savarnas": {
+    "text": "Savarnas",
+    "label": "ORG",
+    "chunk_ids": [
+      212,
+      590
+    ],
+    "frequency": 2
+  },
+  "the National Congress": {
+    "text": "the National Congress",
+    "label": "ORG",
+    "chunk_ids": [
+      218
+    ],
+    "frequency": 1
+  },
+  "the Social Conference": {
+    "text": "the Social Conference",
+    "label": "ORG",
+    "chunk_ids": [
+      218,
+      219,
+      220,
+      221,
+      222
+    ],
+    "frequency": 5
+  },
+  "Congress": {
+    "text": "Congress",
+    "label": "ORG",
+    "chunk_ids": [
+      225,
+      219,
+      221,
+      222,
+      223
+    ],
+    "frequency": 5
+  },
+  "annual": {
+    "text": "annual",
+    "label": "DATE",
+    "chunk_ids": [
+      578,
+      219
+    ],
+    "frequency": 2
+  },
+  "a Political Reform Party": {
+    "text": "a Political Reform Party",
+    "label": "ORG",
+    "chunk_ids": [
+      219
+    ],
+    "frequency": 1
+  },
+  "The Political Reform\nParty": {
+    "text": "The Political Reform\nParty",
+    "label": "ORG",
+    "chunk_ids": [
+      220
+    ],
+    "frequency": 1
+  },
+  "the National Congress and Social Reform Party": {
+    "text": "the National Congress and Social Reform Party",
+    "label": "ORG",
+    "chunk_ids": [
+      220
+    ],
+    "frequency": 1
+  },
+  "a decade": {
+    "text": "a decade",
+    "label": "DATE",
+    "chunk_ids": [
+      221
+    ],
+    "frequency": 1
+  },
+  "Tilak": {
+    "text": "Tilak",
+    "label": "PERSON",
+    "chunk_ids": [
+      627,
+      222
+    ],
+    "frequency": 2
+  },
+  "the Social\nConference": {
+    "text": "the Social\nConference",
+    "label": "ORG",
+    "chunk_ids": [
+      222,
+      223
+    ],
+    "frequency": 2
+  },
+  "Bonnerji": {
+    "text": "Bonnerji",
+    "label": "PERSON",
+    "chunk_ids": [
+      241,
+      226,
+      223
+    ],
+    "frequency": 3
+  },
+  "1892": {
+    "text": "1892",
+    "label": "DATE",
+    "chunk_ids": [
+      223
+    ],
+    "frequency": 1
+  },
+  "Allahabad": {
+    "text": "Allahabad",
+    "label": "ORG",
+    "chunk_ids": [
+      223
+    ],
+    "frequency": 1
+  },
+  "the Social Conference\n\nANNIHILATION OF": {
+    "text": "the Social Conference\n\nANNIHILATION OF",
+    "label": "ORG",
+    "chunk_ids": [
+      223
+    ],
+    "frequency": 1
+  },
+  "Oxford": {
+    "text": "Oxford",
+    "label": "ORG",
+    "chunk_ids": [
+      225
+    ],
+    "frequency": 1
+  },
+  "Cambridge": {
+    "text": "Cambridge",
+    "label": "GPE",
+    "chunk_ids": [
+      225
+    ],
+    "frequency": 1
+  },
+  "Maratha": {
+    "text": "Maratha",
+    "label": "PERSON",
+    "chunk_ids": [
+      228
+    ],
+    "frequency": 1
+  },
+  "Poona": {
+    "text": "Poona",
+    "label": "PERSON",
+    "chunk_ids": [
+      228
+    ],
+    "frequency": 1
+  },
+  "the Times of India": {
+    "text": "the Times of India",
+    "label": "ORG",
+    "chunk_ids": [
+      229,
+      230
+    ],
+    "frequency": 2
+  },
+  "January 1928": {
+    "text": "January 1928",
+    "label": "DATE",
+    "chunk_ids": [
+      229
+    ],
+    "frequency": 1
+  },
+  "Kalotas": {
+    "text": "Kalotas",
+    "label": "PERSON",
+    "chunk_ids": [
+      230
+    ],
+    "frequency": 1
+  },
+  "Patwaris": {
+    "text": "Patwaris",
+    "label": "ORG",
+    "chunk_ids": [
+      230
+    ],
+    "frequency": 1
+  },
+  "Kanaria": {
+    "text": "Kanaria",
+    "label": "GPE",
+    "chunk_ids": [
+      230
+    ],
+    "frequency": 1
+  },
+  "Bicholi": {
+    "text": "Bicholi",
+    "label": "GPE",
+    "chunk_ids": [
+      230
+    ],
+    "frequency": 1
+  },
+  "Mardana": {
+    "text": "Mardana",
+    "label": "GPE",
+    "chunk_ids": [
+      230
+    ],
+    "frequency": 1
+  },
+  "the Indore State": {
+    "text": "the Indore State",
+    "label": "ORG",
+    "chunk_ids": [
+      230
+    ],
+    "frequency": 1
+  },
+  "Balais": {
+    "text": "Balais",
+    "label": "PERSON",
+    "chunk_ids": [
+      233,
+      231
+    ],
+    "frequency": 2
+  },
+  "Balai": {
+    "text": "Balai",
+    "label": "ORG",
+    "chunk_ids": [
+      233
+    ],
+    "frequency": 1
+  },
+  "Darbar": {
+    "text": "Darbar",
+    "label": "GPE",
+    "chunk_ids": [
+      234
+    ],
+    "frequency": 1
+  },
+  "States": {
+    "text": "States",
+    "label": "GPE",
+    "chunk_ids": [
+      234
+    ],
+    "frequency": 1
+  },
+  "Dhar": {
+    "text": "Dhar",
+    "label": "GPE",
+    "chunk_ids": [
+      234
+    ],
+    "frequency": 1
+  },
+  "Bagli": {
+    "text": "Bagli",
+    "label": "GPE",
+    "chunk_ids": [
+      234
+    ],
+    "frequency": 1
+  },
+  "Bhopal": {
+    "text": "Bhopal",
+    "label": "GPE",
+    "chunk_ids": [
+      234
+    ],
+    "frequency": 1
+  },
+  "Kavitha": {
+    "text": "Kavitha",
+    "label": "GPE",
+    "chunk_ids": [
+      235,
+      236
+    ],
+    "frequency": 2
+  },
+  "Gujarat": {
+    "text": "Gujarat",
+    "label": "GPE",
+    "chunk_ids": [
+      235,
+      236
+    ],
+    "frequency": 2
+  },
+  "only last year": {
+    "text": "only last year",
+    "label": "DATE",
+    "chunk_ids": [
+      235
+    ],
+    "frequency": 1
+  },
+  "Zanu": {
+    "text": "Zanu",
+    "label": "PERSON",
+    "chunk_ids": [
+      236
+    ],
+    "frequency": 1
+  },
+  "November 1935": {
+    "text": "November 1935",
+    "label": "DATE",
+    "chunk_ids": [
+      236
+    ],
+    "frequency": 1
+  },
+  "Chakwara": {
+    "text": "Chakwara",
+    "label": "GPE",
+    "chunk_ids": [
+      240,
+      237
+    ],
+    "frequency": 2
+  },
+  "Jaipur State": {
+    "text": "Jaipur State",
+    "label": "GPE",
+    "chunk_ids": [
+      237
+    ],
+    "frequency": 1
+  },
+  "about the 1st of April 1936": {
+    "text": "about the 1st of April 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      240
+    ],
+    "frequency": 1
+  },
+  "Mill": {
+    "text": "Mill",
+    "label": "PERSON",
+    "chunk_ids": [
+      244
+    ],
+    "frequency": 1
+  },
+  "the Social Reform Party": {
+    "text": "the Social Reform Party",
+    "label": "ORG",
+    "chunk_ids": [
+      248,
+      249,
+      244,
+      253
+    ],
+    "frequency": 4
+  },
+  "The Social Conference": {
+    "text": "The Social Conference",
+    "label": "ORG",
+    "chunk_ids": [
+      245
+    ],
+    "frequency": 1
+  },
+  "Hindu Family": {
+    "text": "Hindu Family",
+    "label": "PERSON",
+    "chunk_ids": [
+      245
+    ],
+    "frequency": 1
+  },
+  "the Political\nReform Party": {
+    "text": "the Political\nReform Party",
+    "label": "ORG",
+    "chunk_ids": [
+      249
+    ],
+    "frequency": 1
+  },
+  "Ferdinand": {
+    "text": "Ferdinand",
+    "label": "GPE",
+    "chunk_ids": [
+      250
+    ],
+    "frequency": 1
+  },
+  "Karl Marx": {
+    "text": "Karl Marx",
+    "label": "PERSON",
+    "chunk_ids": [
+      513,
+      250
+    ],
+    "frequency": 2
+  },
+  "1862": {
+    "text": "1862",
+    "label": "DATE",
+    "chunk_ids": [
+      250
+    ],
+    "frequency": 1
+  },
+  "Lassalle": {
+    "text": "Lassalle",
+    "label": "PERSON",
+    "chunk_ids": [
+      250
+    ],
+    "frequency": 1
+  },
+  "Prussia": {
+    "text": "Prussia",
+    "label": "GPE",
+    "chunk_ids": [
+      251
+    ],
+    "frequency": 1
+  },
+  "the Communal Award": {
+    "text": "the Communal Award",
+    "label": "ORG",
+    "chunk_ids": [
+      251,
+      260,
+      253,
+      254
+    ],
+    "frequency": 4
+  },
+  "The Communal\nAward": {
+    "text": "The Communal\nAward",
+    "label": "ORG",
+    "chunk_ids": [
+      252
+    ],
+    "frequency": 1
+  },
+  "Ireland": {
+    "text": "Ireland",
+    "label": "GPE",
+    "chunk_ids": [
+      257,
+      254,
+      255
+    ],
+    "frequency": 3
+  },
+  "Irish Home Rule": {
+    "text": "Irish Home Rule",
+    "label": "ORG",
+    "chunk_ids": [
+      254
+    ],
+    "frequency": 1
+  },
+  "Ulster": {
+    "text": "Ulster",
+    "label": "PERSON",
+    "chunk_ids": [
+      256,
+      257,
+      255
+    ],
+    "frequency": 3
+  },
+  "Southern Ireland": {
+    "text": "Southern Ireland",
+    "label": "GPE",
+    "chunk_ids": [
+      257,
+      255
+    ],
+    "frequency": 2
+  },
+  "Redmond": {
+    "text": "Redmond",
+    "label": "PERSON",
+    "chunk_ids": [
+      255
+    ],
+    "frequency": 1
+  },
+  "Ulstermen": {
+    "text": "Ulstermen",
+    "label": "GPE",
+    "chunk_ids": [
+      257,
+      255
+    ],
+    "frequency": 2
+  },
+  "Ulster to Irish Home Rule": {
+    "text": "Ulster to Irish Home Rule",
+    "label": "ORG",
+    "chunk_ids": [
+      256
+    ],
+    "frequency": 1
+  },
+  "Rome": {
+    "text": "Rome",
+    "label": "GPE",
+    "chunk_ids": [
+      272,
+      259,
+      260
+    ],
+    "frequency": 3
+  },
+  "the\nRepublican Constitution of Rome": {
+    "text": "the\nRepublican Constitution of Rome",
+    "label": "ORG",
+    "chunk_ids": [
+      260
+    ],
+    "frequency": 1
+  },
+  "Kingly": {
+    "text": "Kingly",
+    "label": "PERSON",
+    "chunk_ids": [
+      260
+    ],
+    "frequency": 1
+  },
+  "Imperium": {
+    "text": "Imperium",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      260
+    ],
+    "frequency": 1
+  },
+  "Reformation": {
+    "text": "Reformation",
+    "label": "GPE",
+    "chunk_ids": [
+      264
+    ],
+    "frequency": 1
+  },
+  "Luther": {
+    "text": "Luther",
+    "label": "PERSON",
+    "chunk_ids": [
+      264
+    ],
+    "frequency": 1
+  },
+  "the Muslim Empire": {
+    "text": "the Muslim Empire",
+    "label": "GPE",
+    "chunk_ids": [
+      265
+    ],
+    "frequency": 1
+  },
+  "Prophet Mohammad": {
+    "text": "Prophet Mohammad",
+    "label": "PERSON",
+    "chunk_ids": [
+      265
+    ],
+    "frequency": 1
+  },
+  "Chandragupta": {
+    "text": "Chandragupta",
+    "label": "ORG",
+    "chunk_ids": [
+      266
+    ],
+    "frequency": 1
+  },
+  "Buddha": {
+    "text": "Buddha",
+    "label": "PERSON",
+    "chunk_ids": [
+      488,
+      266,
+      658,
+      487
+    ],
+    "frequency": 4
+  },
+  "Guru Nanak": {
+    "text": "Guru Nanak",
+    "label": "PERSON",
+    "chunk_ids": [
+      488,
+      267
+    ],
+    "frequency": 2
+  },
+  "Mahatmas": {
+    "text": "Mahatmas",
+    "label": "PERSON",
+    "chunk_ids": [
+      635,
+      270
+    ],
+    "frequency": 2
+  },
+  "Sadhus": {
+    "text": "Sadhus",
+    "label": "ORG",
+    "chunk_ids": [
+      271
+    ],
+    "frequency": 1
+  },
+  "Fakirs": {
+    "text": "Fakirs",
+    "label": "GPE",
+    "chunk_ids": [
+      271
+    ],
+    "frequency": 1
+  },
+  "Benares": {
+    "text": "Benares",
+    "label": "PERSON",
+    "chunk_ids": [
+      271
+    ],
+    "frequency": 1
+  },
+  "Mecca": {
+    "text": "Mecca",
+    "label": "GPE",
+    "chunk_ids": [
+      271
+    ],
+    "frequency": 1
+  },
+  "the Roman Republic": {
+    "text": "the Roman Republic",
+    "label": "GPE",
+    "chunk_ids": [
+      272
+    ],
+    "frequency": 1
+  },
+  "Consul": {
+    "text": "Consul",
+    "label": "GPE",
+    "chunk_ids": [
+      272,
+      273,
+      274,
+      276
+    ],
+    "frequency": 4
+  },
+  "the Commitia Centuriata": {
+    "text": "the Commitia Centuriata",
+    "label": "ORG",
+    "chunk_ids": [
+      272
+    ],
+    "frequency": 1
+  },
+  "the Patrician Consuls": {
+    "text": "the Patrician Consuls",
+    "label": "ORG",
+    "chunk_ids": [
+      273
+    ],
+    "frequency": 1
+  },
+  "Delphi": {
+    "text": "Delphi",
+    "label": "ORG",
+    "chunk_ids": [
+      275
+    ],
+    "frequency": 1
+  },
+  "Goddess": {
+    "text": "Goddess",
+    "label": "ORG",
+    "chunk_ids": [
+      275,
+      276,
+      277
+    ],
+    "frequency": 3
+  },
+  "European\nSociety": {
+    "text": "European\nSociety",
+    "label": "ORG",
+    "chunk_ids": [
+      278
+    ],
+    "frequency": 1
+  },
+  "Economic Interpretation of History": {
+    "text": "Economic Interpretation of History",
+    "label": "ORG",
+    "chunk_ids": [
+      280
+    ],
+    "frequency": 1
+  },
+  "Socialist": {
+    "text": "Socialist",
+    "label": "ORG",
+    "chunk_ids": [
+      282
+    ],
+    "frequency": 1
+  },
+  "a few days ago": {
+    "text": "a few days ago",
+    "label": "DATE",
+    "chunk_ids": [
+      282
+    ],
+    "frequency": 1
+  },
+  "Socialism": {
+    "text": "Socialism",
+    "label": "PERSON",
+    "chunk_ids": [
+      282
+    ],
+    "frequency": 1
+  },
+  "Caste System": {
+    "text": "Caste System",
+    "label": "PERSON",
+    "chunk_ids": [
+      384,
+      290,
+      291,
+      327,
+      363,
+      664,
+      306,
+      310,
+      342,
+      312,
+      445
+    ],
+    "frequency": 11
+  },
+  "Bhandarkar": {
+    "text": "Bhandarkar",
+    "label": "PERSON",
+    "chunk_ids": [
+      300
+    ],
+    "frequency": 1
+  },
+  "Marathas": {
+    "text": "Marathas",
+    "label": "GPE",
+    "chunk_ids": [
+      300
+    ],
+    "frequency": 1
+  },
+  "The Caste": {
+    "text": "The Caste",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      300
+    ],
+    "frequency": 1
+  },
+  "the Brahmin of the Punjab": {
+    "text": "the Brahmin of the Punjab",
+    "label": "PERSON",
+    "chunk_ids": [
+      301
+    ],
+    "frequency": 1
+  },
+  "Bengal": {
+    "text": "Bengal",
+    "label": "GPE",
+    "chunk_ids": [
+      474,
+      301
+    ],
+    "frequency": 2
+  },
+  "the Chamar of the Punjab": {
+    "text": "the Chamar of the Punjab",
+    "label": "ORG",
+    "chunk_ids": [
+      302
+    ],
+    "frequency": 1
+  },
+  "Batcson": {
+    "text": "Batcson",
+    "label": "PERSON",
+    "chunk_ids": [
+      310
+    ],
+    "frequency": 1
+  },
+  "Mendel’s Principles of Heredity": {
+    "text": "Mendel’s Principles of Heredity",
+    "label": "ORG",
+    "chunk_ids": [
+      310
+    ],
+    "frequency": 1
+  },
+  "Mohammedan": {
+    "text": "Mohammedan",
+    "label": "PERSON",
+    "chunk_ids": [
+      355,
+      453,
+      358,
+      455,
+      360,
+      315,
+      503,
+      347
+    ],
+    "frequency": 8
+  },
+  "The Caste\nSystem": {
+    "text": "The Caste\nSystem",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      326
+    ],
+    "frequency": 1
+  },
+  "Sahyadrikhand": {
+    "text": "Sahyadrikhand",
+    "label": "ORG",
+    "chunk_ids": [
+      328
+    ],
+    "frequency": 1
+  },
+  "Golak Brahmins": {
+    "text": "Golak Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      329
+    ],
+    "frequency": 1
+  },
+  "Deorukha Brahmins": {
+    "text": "Deorukha Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      329
+    ],
+    "frequency": 1
+  },
+  "Karada Brahmins": {
+    "text": "Karada Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      329
+    ],
+    "frequency": 1
+  },
+  "Palshe Brahmins": {
+    "text": "Palshe Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      329
+    ],
+    "frequency": 1
+  },
+  "Chitpavan Brahmins": {
+    "text": "Chitpavan Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      329
+    ],
+    "frequency": 1
+  },
+  "the Cromwellian War": {
+    "text": "the Cromwellian War",
+    "label": "EVENT",
+    "chunk_ids": [
+      332
+    ],
+    "frequency": 1
+  },
+  "non-Brahmins": {
+    "text": "non-Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      333
+    ],
+    "frequency": 1
+  },
+  "Caste Consciousness": {
+    "text": "Caste Consciousness",
+    "label": "PERSON",
+    "chunk_ids": [
+      334
+    ],
+    "frequency": 1
+  },
+  "State": {
+    "text": "State",
+    "label": "ORG",
+    "chunk_ids": [
+      547,
+      548,
+      335,
+      564,
+      565
+    ],
+    "frequency": 5
+  },
+  "Anaryas of the Vedic days": {
+    "text": "Anaryas of the Vedic days",
+    "label": "ORG",
+    "chunk_ids": [
+      340
+    ],
+    "frequency": 1
+  },
+  "Sonars": {
+    "text": "Sonars",
+    "label": "ORG",
+    "chunk_ids": [
+      344,
+      342,
+      343
+    ],
+    "frequency": 3
+  },
+  "the Pathare Prabhus": {
+    "text": "the Pathare Prabhus",
+    "label": "ORG",
+    "chunk_ids": [
+      344,
+      346,
+      342
+    ],
+    "frequency": 3
+  },
+  "Daivadnya Brahmins": {
+    "text": "Daivadnya Brahmins",
+    "label": "PERSON",
+    "chunk_ids": [
+      343
+    ],
+    "frequency": 1
+  },
+  "the Councils of the East India Company’s": {
+    "text": "the Councils of the East India Company’s",
+    "label": "ORG",
+    "chunk_ids": [
+      344
+    ],
+    "frequency": 1
+  },
+  "Peshwas": {
+    "text": "Peshwas",
+    "label": "PERSON",
+    "chunk_ids": [
+      346
+    ],
+    "frequency": 1
+  },
+  "the Caste\nSystem": {
+    "text": "the Caste\nSystem",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      512,
+      676,
+      350
+    ],
+    "frequency": 3
+  },
+  "Shudhi": {
+    "text": "Shudhi",
+    "label": "ORG",
+    "chunk_ids": [
+      354
+    ],
+    "frequency": 1
+  },
+  "Sanghatan": {
+    "text": "Sanghatan",
+    "label": "PERSON",
+    "chunk_ids": [
+      363,
+      354,
+      355
+    ],
+    "frequency": 3
+  },
+  "Sikh": {
+    "text": "Sikh",
+    "label": "PERSON",
+    "chunk_ids": [
+      355,
+      356,
+      357,
+      358,
+      359,
+      453,
+      455,
+      574,
+      575
+    ],
+    "frequency": 9
+  },
+  "Bhais": {
+    "text": "Bhais",
+    "label": "GPE",
+    "chunk_ids": [
+      359
+    ],
+    "frequency": 1
+  },
+  "Bhai": {
+    "text": "Bhai",
+    "label": "GPE",
+    "chunk_ids": [
+      359
+    ],
+    "frequency": 1
+  },
+  "Khalsa": {
+    "text": "Khalsa",
+    "label": "GPE",
+    "chunk_ids": [
+      359
+    ],
+    "frequency": 1
+  },
+  "Sava Lakh": {
+    "text": "Sava Lakh",
+    "label": "PERSON",
+    "chunk_ids": [
+      359
+    ],
+    "frequency": 1
+  },
+  "Morris": {
+    "text": "Morris",
+    "label": "PERSON",
+    "chunk_ids": [
+      362
+    ],
+    "frequency": 1
+  },
+  "XII": {
+    "text": "XII",
+    "label": "ORG",
+    "chunk_ids": [
+      364
+    ],
+    "frequency": 1
+  },
+  "Kayastha": {
+    "text": "Kayastha",
+    "label": "GPE",
+    "chunk_ids": [
+      373
+    ],
+    "frequency": 1
+  },
+  "XIV": {
+    "text": "XIV",
+    "label": "ORG",
+    "chunk_ids": [
+      376
+    ],
+    "frequency": 1
+  },
+  "Liberty": {
+    "text": "Liberty",
+    "label": "ORG",
+    "chunk_ids": [
+      377,
+      555,
+      556,
+      625
+    ],
+    "frequency": 4
+  },
+  "XV": {
+    "text": "XV",
+    "label": "PERSON",
+    "chunk_ids": [
+      393
+    ],
+    "frequency": 1
+  },
+  "the Arya Samajists": {
+    "text": "the Arya Samajists",
+    "label": "PERSON",
+    "chunk_ids": [
+      440,
+      393
+    ],
+    "frequency": 2
+  },
+  "Chaturvarnya": {
+    "text": "Chaturvarnya",
+    "label": "GPE",
+    "chunk_ids": [
+      647,
+      393,
+      394,
+      399,
+      400,
+      401,
+      403,
+      404,
+      407,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      420,
+      421,
+      422,
+      423,
+      424,
+      428,
+      432,
+      434,
+      436,
+      437,
+      439,
+      440,
+      443,
+      625
+    ],
+    "frequency": 32
+  },
+  "Arya Samajists": {
+    "text": "Arya Samajists",
+    "label": "PERSON",
+    "chunk_ids": [
+      394,
+      395
+    ],
+    "frequency": 2
+  },
+  "the Brahmin, Kshatriya": {
+    "text": "the Brahmin, Kshatriya",
+    "label": "ORG",
+    "chunk_ids": [
+      397
+    ],
+    "frequency": 1
+  },
+  "Brahmin, Kshatriya": {
+    "text": "Brahmin, Kshatriya",
+    "label": "ORG",
+    "chunk_ids": [
+      399
+    ],
+    "frequency": 1
+  },
+  "Varna": {
+    "text": "Varna",
+    "label": "GPE",
+    "chunk_ids": [
+      646,
+      520,
+      401,
+      402,
+      668,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      678,
+      679,
+      682,
+      684,
+      599,
+      600,
+      603,
+      604,
+      612,
+      618,
+      625
+    ],
+    "frequency": 22
+  },
+  "Plato": {
+    "text": "Plato",
+    "label": "ORG",
+    "chunk_ids": [
+      408,
+      405,
+      407
+    ],
+    "frequency": 3
+  },
+  "Plato’s Republic": {
+    "text": "Plato’s Republic",
+    "label": "ORG",
+    "chunk_ids": [
+      410,
+      407
+    ],
+    "frequency": 2
+  },
+  "Shambuka": {
+    "text": "Shambuka",
+    "label": "PERSON",
+    "chunk_ids": [
+      413,
+      414,
+      415
+    ],
+    "frequency": 3
+  },
+  "Rama": {
+    "text": "Rama",
+    "label": "ORG",
+    "chunk_ids": [
+      658,
+      413,
+      414,
+      415
+    ],
+    "frequency": 4
+  },
+  "Ram Raj": {
+    "text": "Ram Raj",
+    "label": "PERSON",
+    "chunk_ids": [
+      413
+    ],
+    "frequency": 1
+  },
+  "Manu-Smriti": {
+    "text": "Manu-Smriti",
+    "label": "PERSON",
+    "chunk_ids": [
+      416
+    ],
+    "frequency": 1
+  },
+  "twentieth century": {
+    "text": "twentieth century",
+    "label": "DATE",
+    "chunk_ids": [
+      416
+    ],
+    "frequency": 1
+  },
+  "Vaishyas": {
+    "text": "Vaishyas",
+    "label": "ORG",
+    "chunk_ids": [
+      424,
+      473,
+      429
+    ],
+    "frequency": 3
+  },
+  "Kshatriyas": {
+    "text": "Kshatriyas",
+    "label": "PERSON",
+    "chunk_ids": [
+      424,
+      441,
+      442,
+      443
+    ],
+    "frequency": 4
+  },
+  "the Laws of Manu": {
+    "text": "the Laws of Manu",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      431
+    ],
+    "frequency": 1
+  },
+  "XVIII": {
+    "text": "XVIII",
+    "label": "GPE",
+    "chunk_ids": [
+      440
+    ],
+    "frequency": 1
+  },
+  "Mahabharata": {
+    "text": "Mahabharata",
+    "label": "ORG",
+    "chunk_ids": [
+      593,
+      442
+    ],
+    "frequency": 2
+  },
+  "Puranas": {
+    "text": "Puranas",
+    "label": "PERSON",
+    "chunk_ids": [
+      593,
+      442,
+      546,
+      669
+    ],
+    "frequency": 4
+  },
+  "Bhagwat": {
+    "text": "Bhagwat",
+    "label": "PERSON",
+    "chunk_ids": [
+      443
+    ],
+    "frequency": 1
+  },
+  "Krishna": {
+    "text": "Krishna",
+    "label": "PERSON",
+    "chunk_ids": [
+      443
+    ],
+    "frequency": 1
+  },
+  "Avtar": {
+    "text": "Avtar",
+    "label": "PERSON",
+    "chunk_ids": [
+      443
+    ],
+    "frequency": 1
+  },
+  "Non-Hindus": {
+    "text": "Non-Hindus",
+    "label": "ORG",
+    "chunk_ids": [
+      450,
+      452,
+      455,
+      456,
+      457,
+      460
+    ],
+    "frequency": 6
+  },
+  "Carlyle": {
+    "text": "Carlyle",
+    "label": "PERSON",
+    "chunk_ids": [
+      451,
+      652
+    ],
+    "frequency": 2
+  },
+  "Shiya": {
+    "text": "Shiya",
+    "label": "ORG",
+    "chunk_ids": [
+      453
+    ],
+    "frequency": 1
+  },
+  "Sheikh": {
+    "text": "Sheikh",
+    "label": "PERSON",
+    "chunk_ids": [
+      453
+    ],
+    "frequency": 1
+  },
+  "Saiyad": {
+    "text": "Saiyad",
+    "label": "ORG",
+    "chunk_ids": [
+      453
+    ],
+    "frequency": 1
+  },
+  "Khatik": {
+    "text": "Khatik",
+    "label": "PERSON",
+    "chunk_ids": [
+      453
+    ],
+    "frequency": 1
+  },
+  "Pinjari": {
+    "text": "Pinjari",
+    "label": "PERSON",
+    "chunk_ids": [
+      453
+    ],
+    "frequency": 1
+  },
+  "Ramdasi": {
+    "text": "Ramdasi",
+    "label": "ORG",
+    "chunk_ids": [
+      453
+    ],
+    "frequency": 1
+  },
+  "Radhakrishnan": {
+    "text": "Radhakrishnan",
+    "label": "PERSON",
+    "chunk_ids": [
+      464,
+      462
+    ],
+    "frequency": 2
+  },
+  "four thousand years": {
+    "text": "four thousand years",
+    "label": "DATE",
+    "chunk_ids": [
+      463
+    ],
+    "frequency": 1
+  },
+  "the present day": {
+    "text": "the present day",
+    "label": "DATE",
+    "chunk_ids": [
+      463
+    ],
+    "frequency": 1
+  },
+  "History": {
+    "text": "History",
+    "label": "GPE",
+    "chunk_ids": [
+      463
+    ],
+    "frequency": 1
+  },
+  "Kayasthas": {
+    "text": "Kayasthas",
+    "label": "PERSON",
+    "chunk_ids": [
+      473
+    ],
+    "frequency": 1
+  },
+  "Gujaratis": {
+    "text": "Gujaratis",
+    "label": "ORG",
+    "chunk_ids": [
+      474
+    ],
+    "frequency": 1
+  },
+  "Banias": {
+    "text": "Banias",
+    "label": "PERSON",
+    "chunk_ids": [
+      474
+    ],
+    "frequency": 1
+  },
+  "Jains": {
+    "text": "Jains",
+    "label": "PERSON",
+    "chunk_ids": [
+      474
+    ],
+    "frequency": 1
+  },
+  "the Kayasthas of Northern India": {
+    "text": "the Kayasthas of Northern India",
+    "label": "ORG",
+    "chunk_ids": [
+      474
+    ],
+    "frequency": 1
+  },
+  "Non-Brahmins of Southern India": {
+    "text": "Non-Brahmins of Southern India",
+    "label": "ORG",
+    "chunk_ids": [
+      474
+    ],
+    "frequency": 1
+  },
+  "the Non-Brahmins": {
+    "text": "the Non-Brahmins",
+    "label": "ORG",
+    "chunk_ids": [
+      474
+    ],
+    "frequency": 1
+  },
+  "Shastras": {
+    "text": "Shastras",
+    "label": "PERSON",
+    "chunk_ids": [
+      546,
+      484,
+      619,
+      620,
+      525,
+      529,
+      627,
+      635,
+      699
+    ],
+    "frequency": 9
+  },
+  "Nanak": {
+    "text": "Nanak",
+    "label": "PERSON",
+    "chunk_ids": [
+      488
+    ],
+    "frequency": 1
+  },
+  "kith": {
+    "text": "kith",
+    "label": "PERSON",
+    "chunk_ids": [
+      500
+    ],
+    "frequency": 1
+  },
+  "Dicey": {
+    "text": "Dicey",
+    "label": "PERSON",
+    "chunk_ids": [
+      501
+    ],
+    "frequency": 1
+  },
+  "English Constitution": {
+    "text": "English Constitution",
+    "label": "EVENT",
+    "chunk_ids": [
+      501
+    ],
+    "frequency": 1
+  },
+  "Parliament": {
+    "text": "Parliament",
+    "label": "ORG",
+    "chunk_ids": [
+      501
+    ],
+    "frequency": 1
+  },
+  "Mohammed": {
+    "text": "Mohammed",
+    "label": "PERSON",
+    "chunk_ids": [
+      503
+    ],
+    "frequency": 1
+  },
+  "Pope": {
+    "text": "Pope",
+    "label": "PERSON",
+    "chunk_ids": [
+      503
+    ],
+    "frequency": 1
+  },
+  "British Parliament": {
+    "text": "British Parliament",
+    "label": "ORG",
+    "chunk_ids": [
+      504
+    ],
+    "frequency": 1
+  },
+  "Leslie Stephen": {
+    "text": "Leslie Stephen",
+    "label": "PERSON",
+    "chunk_ids": [
+      504
+    ],
+    "frequency": 1
+  },
+  "Bhudevas": {
+    "text": "Bhudevas",
+    "label": "GPE",
+    "chunk_ids": [
+      509
+    ],
+    "frequency": 1
+  },
+  "Dharma": {
+    "text": "Dharma",
+    "label": "PERSON",
+    "chunk_ids": [
+      538,
+      509
+    ],
+    "frequency": 2
+  },
+  "vukEukrs\"kq /esZ\"kq dFka L;kfnfr": {
+    "text": "vukEukrs\"kq /esZ\"kq dFka L;kfnfr",
+    "label": "ORG",
+    "chunk_ids": [
+      509
+    ],
+    "frequency": 1
+  },
+  "Ashta": {
+    "text": "Ashta",
+    "label": "PERSON",
+    "chunk_ids": [
+      511
+    ],
+    "frequency": 1
+  },
+  "Sanskaras": {
+    "text": "Sanskaras",
+    "label": "PERSON",
+    "chunk_ids": [
+      511
+    ],
+    "frequency": 1
+  },
+  "LoL": {
+    "text": "LoL",
+    "label": "ORG",
+    "chunk_ids": [
+      515
+    ],
+    "frequency": 1
+  },
+  "Smriti": {
+    "text": "Smriti",
+    "label": "PERSON",
+    "chunk_ids": [
+      515,
+      517,
+      519,
+      524,
+      526
+    ],
+    "frequency": 5
+  },
+  "Sadachar": {
+    "text": "Sadachar",
+    "label": "GPE",
+    "chunk_ids": [
+      515,
+      524,
+      525,
+      526
+    ],
+    "frequency": 4
+  },
+  "Smritis": {
+    "text": "Smritis",
+    "label": "GPE",
+    "chunk_ids": [
+      516,
+      520,
+      526,
+      593,
+      595,
+      538
+    ],
+    "frequency": 6
+  },
+  "ks¿oeU;sr": {
+    "text": "ks¿oeU;sr",
+    "label": "ORG",
+    "chunk_ids": [
+      516
+    ],
+    "frequency": 1
+  },
+  "ukfLrdks": {
+    "text": "ukfLrdks",
+    "label": "ORG",
+    "chunk_ids": [
+      516
+    ],
+    "frequency": 1
+  },
+  "Jqfr}S": {
+    "text": "Jqfr}S",
+    "label": "PERSON",
+    "chunk_ids": [
+      519
+    ],
+    "frequency": 1
+  },
+  "Shruti": {
+    "text": "Shruti",
+    "label": "GPE",
+    "chunk_ids": [
+      524,
+      526,
+      519
+    ],
+    "frequency": 3
+  },
+  "Shloka": {
+    "text": "Shloka",
+    "label": "GPE",
+    "chunk_ids": [
+      519
+    ],
+    "frequency": 1
+  },
+  "k'p dk'p": {
+    "text": "k'p dk'p",
+    "label": "PERSON",
+    "chunk_ids": [
+      519
+    ],
+    "frequency": 1
+  },
+  "Brihaspati": {
+    "text": "Brihaspati",
+    "label": "GPE",
+    "chunk_ids": [
+      519
+    ],
+    "frequency": 1
+  },
+  "osnk;Roksifuca/`Ror~": {
+    "text": "osnk;Roksifuca/`Ror~",
+    "label": "PERSON",
+    "chunk_ids": [
+      519
+    ],
+    "frequency": 1
+  },
+  "kL;rs AA": {
+    "text": "kL;rs AA",
+    "label": "PERSON",
+    "chunk_ids": [
+      519
+    ],
+    "frequency": 1
+  },
+  "pRokfj": {
+    "text": "pRokfj",
+    "label": "ORG",
+    "chunk_ids": [
+      519
+    ],
+    "frequency": 1
+  },
+  "Caste and Untouchability": {
+    "text": "Caste and Untouchability",
+    "label": "ORG",
+    "chunk_ids": [
+      523,
+      629,
+      631
+    ],
+    "frequency": 3
+  },
+  "Ramanuja": {
+    "text": "Ramanuja",
+    "label": "PERSON",
+    "chunk_ids": [
+      524
+    ],
+    "frequency": 1
+  },
+  "Kabir": {
+    "text": "Kabir",
+    "label": "GPE",
+    "chunk_ids": [
+      524
+    ],
+    "frequency": 1
+  },
+  "|íkp;Zrs": {
+    "text": "|íkp;Zrs",
+    "label": "ORG",
+    "chunk_ids": [
+      525
+    ],
+    "frequency": 1
+  },
+  "su /E;±": {
+    "text": "su /E;±",
+    "label": "PERSON",
+    "chunk_ids": [
+      525
+    ],
+    "frequency": 1
+  },
+  "losZ\"kka l": {
+    "text": "losZ\"kka l",
+    "label": "ORG",
+    "chunk_ids": [
+      526
+    ],
+    "frequency": 1
+  },
+  "the Religion of the Shrutis": {
+    "text": "the Religion of the Shrutis",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      529
+    ],
+    "frequency": 1
+  },
+  "Religion": {
+    "text": "Religion",
+    "label": "ORG",
+    "chunk_ids": [
+      544,
+      545,
+      555,
+      686,
+      530,
+      535,
+      540
+    ],
+    "frequency": 7
+  },
+  "the Hindu Religion": {
+    "text": "the Hindu Religion",
+    "label": "ORG",
+    "chunk_ids": [
+      537
+    ],
+    "frequency": 1
+  },
+  "Jaimini": {
+    "text": "Jaimini",
+    "label": "PERSON",
+    "chunk_ids": [
+      538
+    ],
+    "frequency": 1
+  },
+  "Purva": {
+    "text": "Purva",
+    "label": "GPE",
+    "chunk_ids": [
+      538
+    ],
+    "frequency": 1
+  },
+  "Law": {
+    "text": "Law",
+    "label": "PERSON",
+    "chunk_ids": [
+      544,
+      539
+    ],
+    "frequency": 2
+  },
+  "yesterday": {
+    "text": "yesterday",
+    "label": "DATE",
+    "chunk_ids": [
+      540
+    ],
+    "frequency": 1
+  },
+  "Burke": {
+    "text": "Burke",
+    "label": "PERSON",
+    "chunk_ids": [
+      545,
+      565
+    ],
+    "frequency": 2
+  },
+  "Civil Government": {
+    "text": "Civil Government",
+    "label": "ORG",
+    "chunk_ids": [
+      545
+    ],
+    "frequency": 1
+  },
+  "I.C.S.": {
+    "text": "I.C.S.",
+    "label": "ORG",
+    "chunk_ids": [
+      548
+    ],
+    "frequency": 1
+  },
+  "syphilis": {
+    "text": "syphilis",
+    "label": "GPE",
+    "chunk_ids": [
+      550
+    ],
+    "frequency": 1
+  },
+  "Hinduism": {
+    "text": "Hinduism",
+    "label": "PERSON",
+    "chunk_ids": [
+      689,
+      554,
+      639
+    ],
+    "frequency": 3
+  },
+  "any quarter": {
+    "text": "any quarter",
+    "label": "DATE",
+    "chunk_ids": [
+      554
+    ],
+    "frequency": 1
+  },
+  "XXV": {
+    "text": "XXV",
+    "label": "ORG",
+    "chunk_ids": [
+      558
+    ],
+    "frequency": 1
+  },
+  "John Dewey": {
+    "text": "John Dewey",
+    "label": "PERSON",
+    "chunk_ids": [
+      564
+    ],
+    "frequency": 1
+  },
+  "the French Revolution": {
+    "text": "the French Revolution",
+    "label": "EVENT",
+    "chunk_ids": [
+      564
+    ],
+    "frequency": 1
+  },
+  "Dewey": {
+    "text": "Dewey",
+    "label": "ORG",
+    "chunk_ids": [
+      566
+    ],
+    "frequency": 1
+  },
+  "Swaraj": {
+    "text": "Swaraj",
+    "label": "PERSON",
+    "chunk_ids": [
+      576,
+      577,
+      575
+    ],
+    "frequency": 3
+  },
+  "MAHATMA GANDHI": {
+    "text": "MAHATMA GANDHI",
+    "label": "PERSON",
+    "chunk_ids": [
+      578
+    ],
+    "frequency": 1
+  },
+  "Articles": {
+    "text": "Articles",
+    "label": "PERSON",
+    "chunk_ids": [
+      578
+    ],
+    "frequency": 1
+  },
+  "last May": {
+    "text": "last May",
+    "label": "DATE",
+    "chunk_ids": [
+      578
+    ],
+    "frequency": 1
+  },
+  "Reception\nCommittee": {
+    "text": "Reception\nCommittee",
+    "label": "ORG",
+    "chunk_ids": [
+      579
+    ],
+    "frequency": 1
+  },
+  "Savarna Hindus": {
+    "text": "Savarna Hindus",
+    "label": "PERSON",
+    "chunk_ids": [
+      587
+    ],
+    "frequency": 1
+  },
+  "Rao Bahadur M. Rajah": {
+    "text": "Rao Bahadur M. Rajah",
+    "label": "PERSON",
+    "chunk_ids": [
+      589
+    ],
+    "frequency": 1
+  },
+  "July 11, 1936": {
+    "text": "July 11, 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      593
+    ],
+    "frequency": 1
+  },
+  "Ramayana": {
+    "text": "Ramayana",
+    "label": "PERSON",
+    "chunk_ids": [
+      593
+    ],
+    "frequency": 1
+  },
+  "Ashrama": {
+    "text": "Ashrama",
+    "label": "ORG",
+    "chunk_ids": [
+      599
+    ],
+    "frequency": 1
+  },
+  "Segaon": {
+    "text": "Segaon",
+    "label": "GPE",
+    "chunk_ids": [
+      602
+    ],
+    "frequency": 1
+  },
+  "Ahimsa": {
+    "text": "Ahimsa",
+    "label": "GPE",
+    "chunk_ids": [
+      604,
+      678
+    ],
+    "frequency": 2
+  },
+  "nearly half a century": {
+    "text": "nearly half a century",
+    "label": "DATE",
+    "chunk_ids": [
+      605
+    ],
+    "frequency": 1
+  },
+  "Chaitanya, Jnyandeo, Tukaram, Tiruvalluvar": {
+    "text": "Chaitanya, Jnyandeo, Tukaram, Tiruvalluvar",
+    "label": "ORG",
+    "chunk_ids": [
+      606
+    ],
+    "frequency": 1
+  },
+  "Mohan Roy": {
+    "text": "Mohan Roy",
+    "label": "PERSON",
+    "chunk_ids": [
+      606
+    ],
+    "frequency": 1
+  },
+  "Maharshi Devendranath\nTagore": {
+    "text": "Maharshi Devendranath\nTagore",
+    "label": "PERSON",
+    "chunk_ids": [
+      606
+    ],
+    "frequency": 1
+  },
+  "Vivekanand": {
+    "text": "Vivekanand",
+    "label": "GPE",
+    "chunk_ids": [
+      606
+    ],
+    "frequency": 1
+  },
+  "July 18, 1936": {
+    "text": "July 18, 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      608
+    ],
+    "frequency": 1
+  },
+  "Doctorate": {
+    "text": "Doctorate",
+    "label": "ORG",
+    "chunk_ids": [
+      610
+    ],
+    "frequency": 1
+  },
+  "Varnavyavastha": {
+    "text": "Varnavyavastha",
+    "label": "GPE",
+    "chunk_ids": [
+      625,
+      613,
+      614
+    ],
+    "frequency": 3
+  },
+  "Shri Sant Ram": {
+    "text": "Shri Sant Ram",
+    "label": "PERSON",
+    "chunk_ids": [
+      617,
+      620
+    ],
+    "frequency": 2
+  },
+  "Quran": {
+    "text": "Quran",
+    "label": "GPE",
+    "chunk_ids": [
+      618,
+      678
+    ],
+    "frequency": 2
+  },
+  "Bible": {
+    "text": "Bible",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      618,
+      678
+    ],
+    "frequency": 2
+  },
+  "August 15, 1936": {
+    "text": "August 15, 1936",
+    "label": "DATE",
+    "chunk_ids": [
+      620
+    ],
+    "frequency": 1
+  },
+  "MAHATMA": {
+    "text": "MAHATMA",
+    "label": "PERSON",
+    "chunk_ids": [
+      621
+    ],
+    "frequency": 1
+  },
+  "the Jat Pat\nTodak Mandal": {
+    "text": "the Jat Pat\nTodak Mandal",
+    "label": "PERSON",
+    "chunk_ids": [
+      621
+    ],
+    "frequency": 1
+  },
+  "Paithan": {
+    "text": "Paithan",
+    "label": "GPE",
+    "chunk_ids": [
+      631
+    ],
+    "frequency": 1
+  },
+  "Eknath": {
+    "text": "Eknath",
+    "label": "GPE",
+    "chunk_ids": [
+      631
+    ],
+    "frequency": 1
+  },
+  "Dharmatma": {
+    "text": "Dharmatma",
+    "label": "PERSON",
+    "chunk_ids": [
+      631
+    ],
+    "frequency": 1
+  },
+  "vaR;tkpk": {
+    "text": "vaR;tkpk",
+    "label": "ORG",
+    "chunk_ids": [
+      632
+    ],
+    "frequency": 1
+  },
+  "foVkG": {
+    "text": "foVkG",
+    "label": "ORG",
+    "chunk_ids": [
+      632
+    ],
+    "frequency": 1
+  },
+  "8 8": {
+    "text": "8 8",
+    "label": "DATE",
+    "chunk_ids": [
+      632
+    ],
+    "frequency": 1
+  },
+  "Chaitanya, Jnyandeo, Tukaram,": {
+    "text": "Chaitanya, Jnyandeo, Tukaram,",
+    "label": "ORG",
+    "chunk_ids": [
+      636
+    ],
+    "frequency": 1
+  },
+  "Chaitanya": {
+    "text": "Chaitanya",
+    "label": "GPE",
+    "chunk_ids": [
+      639
+    ],
+    "frequency": 1
+  },
+  "Morality": {
+    "text": "Morality",
+    "label": "ORG",
+    "chunk_ids": [
+      647
+    ],
+    "frequency": 1
+  },
+  "the Social Structure": {
+    "text": "the Social Structure",
+    "label": "ORG",
+    "chunk_ids": [
+      647
+    ],
+    "frequency": 1
+  },
+  "Brailsford": {
+    "text": "Brailsford",
+    "label": "PERSON",
+    "chunk_ids": [
+      647
+    ],
+    "frequency": 1
+  },
+  "Bania": {
+    "text": "Bania",
+    "label": "ORG",
+    "chunk_ids": [
+      649
+    ],
+    "frequency": 1
+  },
+  "Vishnu": {
+    "text": "Vishnu",
+    "label": "PERSON",
+    "chunk_ids": [
+      657
+    ],
+    "frequency": 1
+  },
+  "Love": {
+    "text": "Love",
+    "label": "WORK_OF_ART",
+    "chunk_ids": [
+      657,
+      658
+    ],
+    "frequency": 2
+  },
+  "Shankar": {
+    "text": "Shankar",
+    "label": "ORG",
+    "chunk_ids": [
+      658
+    ],
+    "frequency": 1
+  },
+  "Buddha Gaya": {
+    "text": "Buddha Gaya",
+    "label": "PERSON",
+    "chunk_ids": [
+      658
+    ],
+    "frequency": 1
+  },
+  "Kali": {
+    "text": "Kali",
+    "label": "PERSON",
+    "chunk_ids": [
+      658
+    ],
+    "frequency": 1
+  },
+  "the Temple of Parshuram": {
+    "text": "the Temple of Parshuram",
+    "label": "ORG",
+    "chunk_ids": [
+      659
+    ],
+    "frequency": 1
+  },
+  "Avatar": {
+    "text": "Avatar",
+    "label": "PERSON",
+    "chunk_ids": [
+      659
+    ],
+    "frequency": 1
+  },
+  "Bramha": {
+    "text": "Bramha",
+    "label": "ORG",
+    "chunk_ids": [
+      659
+    ],
+    "frequency": 1
+  },
+  "Goddesses": {
+    "text": "Goddesses",
+    "label": "PERSON",
+    "chunk_ids": [
+      660,
+      661
+    ],
+    "frequency": 2
+  },
+  "Years ago": {
+    "text": "Years ago",
+    "label": "DATE",
+    "chunk_ids": [
+      664
+    ],
+    "frequency": 1
+  },
+  "Upanishads": {
+    "text": "Upanishads",
+    "label": "ORG",
+    "chunk_ids": [
+      669
+    ],
+    "frequency": 1
+  },
+  "Swami Dayanand Saraswati": {
+    "text": "Swami Dayanand Saraswati",
+    "label": "PERSON",
+    "chunk_ids": [
+      671
+    ],
+    "frequency": 1
+  },
+  "Swami Dayanand": {
+    "text": "Swami Dayanand",
+    "label": "PERSON",
+    "chunk_ids": [
+      673
+    ],
+    "frequency": 1
+  },
+  "the Varna System": {
+    "text": "the Varna System",
+    "label": "ORG",
+    "chunk_ids": [
+      676
+    ],
+    "frequency": 1
+  },
+  "Ambedkar’s Indictment": {
+    "text": "Ambedkar’s Indictment",
+    "label": "PERSON",
+    "chunk_ids": [
+      677
+    ],
+    "frequency": 1
+  },
+  "Whom": {
+    "text": "Whom",
+    "label": "PERSON",
+    "chunk_ids": [
+      680
+    ],
+    "frequency": 1
+  },
+  "XI\nHindu": {
+    "text": "XI\nHindu",
+    "label": "ORG",
+    "chunk_ids": [
+      690
+    ],
+    "frequency": 1
+  },
+  "the days": {
+    "text": "the days",
+    "label": "DATE",
+    "chunk_ids": [
+      692
+    ],
+    "frequency": 1
+  },
+  "Balfour": {
+    "text": "Balfour",
+    "label": "PERSON",
+    "chunk_ids": [
+      696
+    ],
+    "frequency": 1
+  },
+  "Mathew Arnold": {
+    "text": "Mathew Arnold",
+    "label": "PERSON",
+    "chunk_ids": [
+      700
+    ],
+    "frequency": 1
+  }
+}

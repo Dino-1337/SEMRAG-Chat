@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-12-10T02:32:16.540930",
+  "config_hash": "f97f56cd68efefdd49d219deb04a0c79",
+  "statistics": {
+    "num_chunks": 703,
+    "num_entities": 450,
+    "num_relationships": 1046,
+    "num_graph_nodes": 450,
+    "num_graph_edges": 676,
+    "num_communities": 144,
+    "num_summaries": 144,
+    "total_tokens": 60519,
+    "avg_chunk_size": 86.08677098150783
+  }
+}
