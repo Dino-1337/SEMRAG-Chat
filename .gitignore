@@ -1,3 +1,12 @@
+# Knowledge graph visualization
+knowledge_graph.html
+
+# Data files (large, can be regenerated)
+data/processed/chroma_db/
+data/processed_backup/
+data/processed/*.npy
+data/processed/*.pkl
+
 # Python
 __pycache__/
 *.py[cod]

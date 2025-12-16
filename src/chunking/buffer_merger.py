@@ -1,52 +1,40 @@
-"""Buffer merging to preserve contextual continuity."""
-
 from typing import List
 import numpy as np
 from .semantic_chunker import Chunk
 
 
 class BufferMerger:
-    """Applies buffer merging to preserve contextual continuity."""
-    
     def __init__(self, buffer_size: int = 2, max_chunk_tokens: int = 1024):
-        """
-        Initialize buffer merger.
-        
-        Args:
-            buffer_size: Number of sentences to merge at boundaries
-            max_chunk_tokens: Maximum tokens per chunk
-        """
         self.buffer_size = buffer_size
         self.max_chunk_tokens = max_chunk_tokens
-    
+        try:
+            import tiktoken
+            self._encoding = tiktoken.get_encoding("cl100k_base")
+        except Exception:
+            self._encoding = None
+
     def count_tokens(self, text: str) -> int:
-        """Count tokens in text."""
-        import tiktoken
-        encoding = tiktoken.get_encoding("cl100k_base")
-        return len(encoding.encode(text))
-    
+        if not text:
+            return 0
+        if self._encoding is None:
+            return len(text.split())
+        return len(self._encoding.encode(text))
+
     def apply_buffer_merging(self, chunks: List[Chunk]) -> List[Chunk]:
-        """
-        Apply buffer merging to preserve contextual continuity.
-        
-        Merges chunks at boundaries to maintain context.
-        """
         if len(chunks) <= 1:
             return chunks
-        
+
         merged_chunks = []
         i = 0
-        
-        while i < len(chunks):
-            current_chunk = chunks[i]
-            merged_sentences = current_chunk.sentences.copy()
-            merged_indices = current_chunk.sentence_indices.copy()
-            
-            # Merge with next chunks if within buffer size
+        n = len(chunks)
+
+        while i < n:
+            merged_sentences = chunks[i].sentences.copy()
+            merged_indices = chunks[i].sentence_indices.copy()
             j = i + 1
-            while j < len(chunks) and (j - i) <= self.buffer_size:
+
+            while j < n and (j - i) <= self.buffer_size:
                 next_chunk = chunks[j]
-                # Check if merging would exceed token limit
                 combined_text = " ".join(merged_sentences + next_chunk.sentences)
                 if self.count_tokens(combined_text) <= self.max_chunk_tokens:
                     merged_sentences.extend(next_chunk.sentences)
@@ -54,15 +42,20 @@ class BufferMerger:
                     j += 1
                 else:
                     break
-            
-            # Create merged chunk
+
             merged_text = " ".join(merged_sentences)
-            merged_embedding = np.mean(
-                [chunks[k].embedding for k in range(i, j)],
-                axis=0
-            )
+            # compute merged embedding: average available chunk embeddings
+            embeddings = []
+            for k in range(i, j):
+                if getattr(chunks[k], "embedding", None) is not None:
+                    embeddings.append(chunks[k].embedding)
+            if embeddings:
+                merged_embedding = np.mean(embeddings, axis=0)
+            else:
+                merged_embedding = None
+
             token_count = self.count_tokens(merged_text)
-            
+
             merged_chunks.append(Chunk(
                 text=merged_text,
                 sentences=merged_sentences,
@@ -70,8 +63,7 @@ class BufferMerger:
                 embedding=merged_embedding,
                 token_count=token_count
             ))
-            
-            i = j
-        
-        return merged_chunks
 
+            i = j
+
+        return merged_chunks

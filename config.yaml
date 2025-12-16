@@ -7,18 +7,18 @@ embedding:
 
 # LLM Configuration (Ollama)
 llm:
-  model: "llama3.2:1b"  # Changed from mistral:7b to fix memory issues
+  model: "mistral:7b"  # Using Mistral 7B for better reasoning
   base_url: "http://localhost:11434"
   temperature: 0.7
   max_tokens: 1000
 
-# Semantic Chunking Parameters (SEMRAG Paper Specs)
+# Semantic Chunking Parameters (Optimized for Long-Form Reasoning)
 chunking:
-  similarity_threshold: 0.7
-  max_chunk_tokens: 1024      # Max chunk size per paper
-  sub_chunk_tokens: 128        # Sub-chunk size per paper
-  chunk_overlap: 128           # Overlap size per paper (was 20)
-  buffer_size: 2
+  similarity_threshold: 0.45   # Lower threshold = more aggressive merging for argument chains
+  max_chunk_tokens: 800        # Safety limit to prevent excessively large chunks
+  sub_chunk_tokens: 600        # Larger sub-chunks allow initial chunks to grow bigger
+  chunk_overlap: 128           # Overlap size for sub-chunking
+  buffer_size: 8               # Merge up to 9 adjacent chunks (targeting 450-650 tokens)
 
 # Knowledge Graph Parameters
 knowledge_graph:

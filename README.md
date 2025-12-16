@@ -1,152 +1,233 @@
-# SEMRAG RAG System
+# SEMRAG — Semantic + Knowledge Graph RAG System
 
-A fully functional RAG (Retrieval-Augmented Generation) system following the SEMRAG research paper's approach for answering questions about Dr. B.R. Ambedkar's works.
+SEMRAG is a **research-grade Retrieval-Augmented Generation (RAG) system** built following the **SEMRAG research paper** architecture.  
+It is designed to answer questions **strictly grounded** in a provided text corpus, with strong safeguards against hallucination.
 
-## Features
+The system processes a primary text corpus (PDF), builds a **semantic index and knowledge graph**, and answers queries using **local + global retrieval** with evidence-based synthesis.
 
-- **Semantic Chunking**: Cosine similarity-based sentence grouping with buffer merging
-- **Knowledge Graph**: Entity extraction, relationship extraction, and community detection
-- **Dual Retrieval**: Local RAG (entity-based) and Global RAG (community-based) search
-- **LLM Integration**: Ollama integration with Mistral 7B for answer generation
+---
 
-## Installation
+## 🔍 Key Features
 
-1. Install Python dependencies:
+- 📄 **PDF-based corpus ingestion**
+- 🧠 **Semantic chunking** with contextual continuity
+- 🕸️ **Canonicalized knowledge graph** (entities + relationships)
+- 🧩 **Community detection & summarization**
+- 🔎 **Local RAG** (chunk-level semantic + graph-aware retrieval)
+- 🌍 **Global RAG** (community-level semantic retrieval)
+- ⚖️ **Weighted result ranking** (local + global fusion)
+- 🛡️ **Hallucination-resistant answering**
+- 📚 **Citation-backed answers**
+
+---
+
+## 🧱 Project Structure
+
+```
+src/
+├── chunking/
+│   ├── semantic_chunker.py
+│   └── buffer_merger.py
+│
+├── graph/
+│   ├── entity_extractor.py
+│   ├── relationship_extractor.py
+│   ├── graph_builder.py
+│   ├── community_detector.py
+│   └── summarizer.py
+│
+├── retrieval/
+│   ├── local_search.py
+│   ├── global_search.py
+│   └── ranker.py
+│
+├── llm/
+│   ├── llm_client.py
+│   ├── prompt_templates.py
+│   └── answer_generator.py
+│
+├── utils/
+│   ├── data_loader.py
+│   └── query_expander.py
+│
+└── pipeline/
+    ├── index_builder.py
+    └── ambedkargpt.py
+```
+
+---
+
+## ⚙️ Requirements
+
+### System
+- Python **3.10+**
+- **Ollama** (running locally)
+- RAM: **8 GB minimum** (16 GB recommended)
+
+### LLM
+- Tested with: **Mistral 7B**
+
+```bash
+ollama pull mistral:7b
+```
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Dino-1337/SEMRAG.git
+cd SEMRAG
+```
+
+### 2. Create and activate virtual environment
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
+```
+
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Download spaCy English model:
+### 4. Download spaCy model
 ```bash
 python -m spacy download en_core_web_sm
 ```
 
-3. Install and start Ollama (if not already running):
+---
+
+## 📄 Preparing the Corpus
+
+Place your primary PDF inside the project:
+
+```
+data/
+└── corpus.pdf
+```
+
+⚠️ **Important**: This system is designed to be corpus-bounded. All answers are derived **only** from the provided PDF.
+
+---
+
+## 🏗️ Building the Index (Pipeline 1)
+
+This step:
+- Loads the PDF
+- Performs semantic chunking
+- Extracts canonical entities
+- Builds the knowledge graph
+- Detects communities
+- Generates summaries
+- Saves all artifacts to disk
+
 ```bash
-# Install Ollama from https://ollama.ai
-# Pull the mistral model
-ollama pull mistral:7b
+python build_index.py
+```
+<img width="1824" height="901" alt="image" src="https://github.com/user-attachments/assets/75a64fe8-1912-4b68-ae24-4007109029c4" />
+
+Artifacts are stored in:
+```
+data/processed/
+├── chunks.json
+├── chunk_embeddings.npy
+├── entities.json
+├── knowledge_graph.pkl
+├── communities.json
+├── community_summaries.json
+└── metadata.json
 ```
 
-4. Place your `Ambedkar_works.pdf` file in the `data/` directory
+---
 
-## Usage
+## 💬 Running the QA System (Pipeline 2)
 
-### Basic Usage
-
-```python
-from src.pipeline.ambedkargpt import AmbedkarGPT
-
-# Initialize system
-gpt = AmbedkarGPT("config.yaml")
-
-# Load and process PDF
-gpt.load_and_process("data/Ambedkar_works.pdf")
-
-# Ask questions
-result = gpt.query("What were Dr. Ambedkar's views on social justice?")
-print(result['answer'])
-print(result['citations'])
-```
-
-### Run Application
+Start the interactive app:
 
 ```bash
 python app.py
 ```
 
-### Visualize Knowledge Graph
+You can now ask questions in the terminal.
 
-After processing the PDF, you can visualize the knowledge graph:
-
-```bash
-# Quick check if graph was created
-python check_graph.py
-
-# Create full visualizations (PNG, JSON, HTML)
-python visualize_graph.py
+### Example Questions
+```
+What are the main concepts discussed in the document?
+How does the author explain [specific concept]?
+What arguments are presented regarding [topic]?
 ```
 
-This will generate:
-- `knowledge_graph.png` - Static visualization
-- `knowledge_graph.json` - Graph data in JSON format
-- `knowledge_graph.html` - Interactive visualization (if plotly is installed)
+Type `/exit` to quit.
 
-## Project Structure
+---
 
-```
-ambedkargpt/
-├── data/
-│   ├── Ambedkar_works.pdf
-│   └── processed/
-│       ├── chunks.json
-│       └── knowledge_graph.pkl
-├── src/
-│   ├── chunking/
-│   │   ├── semantic_chunker.py   # Algorithm 1
-│   │   └── buffer_merger.py
-│   ├── graph/
-│   │   ├── entity_extractor.py
-│   │   ├── relationship_extractor.py
-│   │   ├── graph_builder.py
-│   │   ├── community_detector.py
-│   │   └── summarizer.py
-│   ├── retrieval/
-│   │   ├── local_search.py       # Equation 4
-│   │   ├── global_search.py       # Equation 5
-│   │   └── ranker.py
-│   ├── llm/
-│   │   ├── llm_client.py
-│   │   ├── prompt_templates.py
-│   │   └── answer_generator.py
-│   ├── pipeline/
-│   │   └── ambedkargpt.py        # Main pipeline
-│   └── utils/
-│       ├── data_loader.py
-│       └── graph_visualizer.py
-├── tests/
-│   ├── test_chunking.py
-│   ├── test_retrieval.py
-│   └── test_integration.py
-├── config.yaml                   # Hyperparameters
-├── requirements.txt
-├── app.py                        # Main entry point
-└── README.md
-```
+## 📌 Answer Format
 
-## Visualization
+Each response includes:
+- **Synthesized answer**
+- **Top citations** (chunks)
+- **Search metadata**:
+  - local vs global matches
+  - entities involved
+  - communities used
 
-The system automatically prints detailed graph statistics after processing. You can also:
+This ensures **transparency and traceability**.
 
-1. **Quick Check**: Run `python check_graph.py` to verify graph creation
-2. **Full Visualization**: Run `python visualize_graph.py` to generate:
-   - Static PNG image of the graph
-   - JSON export of graph data
-   - Interactive HTML visualization (requires plotly)
+---
 
-The graph visualization shows:
-- Entities as nodes (colored by community or entity type)
-- Relationships as edges
-- Community groupings
-- Connection statistics
+## 🛡️ Hallucination Control
 
-## Configuration
+The system is designed to:
+- ✅ Never use external knowledge
+- ✅ Clearly state when the corpus is insufficient
+- ✅ Distinguish between:
+  - Author's arguments
+  - Theories the author explicitly rejects
 
-Edit `config.yaml` to customize:
-- Embedding model
-- LLM settings
-- Chunking parameters
-- Retrieval thresholds
-- Knowledge graph settings
+---
 
-## Architecture
+## 🔬 Intended Use
 
-1. **Semantic Chunking**: Groups sentences into semantically coherent chunks using cosine similarity
-2. **Knowledge Graph**: Extracts entities and relationships, builds graph, detects communities
-3. **Retrieval**: Local search (entity-based) and Global search (community-based)
-4. **Generation**: LLM generates answers using retrieved context
+- Academic research
+- Digital humanities
+- Political philosophy analysis
+- Explainable AI demonstrations
+- RAG system experimentation
 
-## License
+---
 
-This project is for technical assignment purposes.
+## 🚧 Limitations
 
+- Answers are limited to the provided corpus
+- Not intended for general-purpose QA
+- PDF quality affects extraction accuracy
+
+---
+
+## 📜 License
+
+This project is intended for educational and research purposes.
+
+---
+
+## ✨ Acknowledgements
+
+- **SEMRAG Research Paper** — architecture and methodology
+- **SentenceTransformers**
+- **spaCy**
+- **NetworkX**
+- **Ollama**
+- **Mistral AI**
+
+---
+
+## 📬 Contact
+
+For questions or collaboration, open an issue or reach out via GitHub.

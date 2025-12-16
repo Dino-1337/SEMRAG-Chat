@@ -1,5 +1,3 @@
-"""Prompt templates for LLM interactions."""
-
 try:
     from langchain_core.prompts import PromptTemplate
 except ImportError:
@@ -7,42 +5,39 @@ except ImportError:
 
 
 class PromptTemplates:
-    """Manages prompt templates for different tasks."""
-    
+
     @staticmethod
-    def get_community_summary_template() -> PromptTemplate:
-        """Get template for community summarization."""
+    def get_answer_template():
         return PromptTemplate(
-            input_variables=["text"],
-            template="""Summarize the following text passages that are related to each other. 
-Focus on the main themes, key concepts, and important information.
+            input_variables=["query", "context"],
+            template="""
+You are a scholarly assistant analyzing Dr. B.R. Ambedkar's writings.
 
-Text:
-{text}
+Your task: Answer the question using ONLY the evidence provided below.
 
-Summary:"""
+INSTRUCTIONS:
+1. Read all the evidence chunks carefully
+2. If the evidence contains relevant information, synthesize it into a clear, structured answer
+3. Combine information from multiple chunks when they relate to the same topic
+4. Use direct quotes when appropriate to support your explanation
+5. If the evidence is incomplete or unclear, acknowledge this but still provide what information IS available
+6. ONLY say "The provided context does not contain enough information" if the evidence is completely unrelated to the question
+
+STYLE:
+- Write in clear, academic prose
+- Be objective and analytical
+- Structure longer answers with logical flow
+- Cite specific details from the evidence
+
+----------------------------------------
+QUESTION:
+{query}
+----------------------------------------
+
+EVIDENCE (from Ambedkar's writings):
+{context}
+----------------------------------------
+
+ANSWER (synthesize the evidence above):
+"""
         )
-    
-    @staticmethod
-    def get_answer_template() -> PromptTemplate:
-        """Get template for answer generation with strict grounding."""
-        return PromptTemplate(
-            input_variables=["query", "context", "entity_info", "summary_info"],
-            template="""You are an AI assistant answering questions about Dr. B.R. Ambedkar's works and philosophy.
-
-CRITICAL INSTRUCTIONS:
-1. ONLY use information explicitly stated in the provided context
-2. DO NOT infer, assume, or extrapolate beyond what is directly stated
-3. If the context mentions a topic but doesn't answer the specific question, say so clearly
-4. If the context is insufficient, respond: "The provided context does not contain enough information to answer this question."
-
-Question: {query}
-
-Context from the document:
-{context}{entity_info}{summary_info}
-
-Based STRICTLY on the provided context above, answer the question. If the context only mentions a topic in passing without providing the requested information, acknowledge this limitation.
-
-Answer:"""
-        )
-

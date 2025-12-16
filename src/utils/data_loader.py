@@ -1,12 +1,11 @@
-"""PDF loading and text extraction module using LangChain."""
+"""PDF loading and text extraction module using PyMuPDF."""
 
 from typing import List
-from langchain_community.document_loaders import PyPDFLoader
-import pdfplumber
+import fitz  # PyMuPDF
 
 
 class PDFLoader:
-    """Load and extract text from PDF files."""
+    """Load and extract text from PDF files using PyMuPDF (fitz)."""
     
     def __init__(self):
         """Initialize PDF loader."""
@@ -14,7 +13,7 @@ class PDFLoader:
     
     def load_pdf(self, pdf_path: str) -> str:
         """
-        Load PDF and extract all text.
+        Load PDF and extract all text using PyMuPDF.
         
         Args:
             pdf_path: Path to the PDF file
@@ -22,24 +21,26 @@ class PDFLoader:
         Returns:
             Extracted text as a single string
         """
+        text_parts = []
+        
         try:
-            # Try using pdfplumber for better text extraction
-            text_parts = []
-            with pdfplumber.open(pdf_path) as pdf:
-                for page in pdf.pages:
-                    page_text = page.extract_text()
-                    if page_text:
-                        text_parts.append(page_text)
+            # Open PDF with PyMuPDF
+            doc = fitz.open(pdf_path)
+            
+            for page_num in range(len(doc)):
+                page = doc[page_num]
+                page_text = page.get_text("text")  # Extract plain text
+                
+                if page_text.strip():
+                    text_parts.append(page_text)
+            
+            doc.close()
             
             full_text = "\n\n".join(text_parts)
             return full_text
+            
         except Exception as e:
-            # Fallback to LangChain's PyPDFLoader
-            print(f"Warning: pdfplumber failed, using PyPDFLoader: {e}")
-            loader = PyPDFLoader(pdf_path)
-            documents = loader.load()
-            full_text = "\n\n".join([doc.page_content for doc in documents])
-            return full_text
+            raise RuntimeError(f"Failed to load PDF with PyMuPDF: {e}")
     
     def split_into_sentences(self, text: str) -> List[str]:
         """
@@ -72,17 +73,25 @@ class PDFLoader:
             List of dicts with 'page_num' and 'text' keys
         """
         page_texts = []
+        
         try:
-            with pdfplumber.open(pdf_path) as pdf:
-                for page_num, page in enumerate(pdf.pages, start=1):
-                    page_text = page.extract_text()
-                    if page_text:
-                        page_texts.append({
-                            'page_num': page_num,
-                            'text': page_text
-                        })
+            doc = fitz.open(pdf_path)
+            
+            for page_num in range(len(doc)):
+                page = doc[page_num]
+                page_text = page.get_text("text")
+                
+                if page_text.strip():
+                    page_texts.append({
+                        'page_num': page_num + 1,  # 1-indexed for user display
+                        'text': page_text
+                    })
+            
+            doc.close()
+            
         except Exception as e:
             print(f"Warning: Could not extract page texts: {e}")
+            # Fallback to full text
             full_text = self.load_pdf(pdf_path)
             if full_text:
                 page_texts.append({

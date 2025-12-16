@@ -6,9 +6,8 @@ from src.pipeline.index_builder import IndexBuilder
 
 
 def main():
-    """Build and save the index."""
+    """Building and saving the index for SEMRAG system."""
     
-    # Check if PDF exists
     pdf_path = Path("data/Ambedkar_works.pdf")
     if not pdf_path.exists():
         print("=" * 60)
@@ -25,7 +24,6 @@ def main():
     print("This only needs to be done ONCE.")
     print("=" * 60)
     
-    # Initialize and process
     try:
         builder = IndexBuilder("config.yaml")
         stats = builder.build_index(str(pdf_path))
