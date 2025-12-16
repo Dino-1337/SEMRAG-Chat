@@ -20,110 +20,6 @@ The system processes a primary text corpus (PDF), builds a semantic index and kn
 
 ---
 
-## Project Structure
-
-```
-SEMRAG/
-├── data/
-│   ├── Ambedkar_works.pdf          # Input corpus
-│   └── processed/                   # Generated artifacts
-│       # ChromaDB vector store
-│
-├── src/
-│   ├── chunking/
-│   │   ├── semantic_chunker.py     # Semantic text chunking
-│   │   └── buffer_merger.py        # Chunk merging logic
-│   │
-│   ├── graph/
-│   │   ├── entity_extractor.py     # NER + concept extraction
-│   │   ├── relationship_extractor.py
-│   │   ├── graph_builder.py        # NetworkX graph construction
-│   │   ├── community_detector.py   # Leiden/Louvain clustering
-│   │   └── summarizer.py           # LLM-based summaries
-│   │
-│   ├── retrieval/
-│   │   ├── local_search.py         # Chunk-level retrieval
-│   │   ├── global_search.py        # Community-level retrieval
-│   │   └── ranker.py               # Result fusion
-│   │
-│   ├── llm/
-│   │   ├── llm_client.py           # Ollama integration
-│   │   ├── prompt_templates.py     # Prompt engineering
-│   │   └── answer_generator.py     # Answer synthesis
-│   │
-│   ├── utils/
-│   │   ├── data_loader.py          # PDF text extraction
-│   │   ├── query_expander.py       # Query enhancement
-│   │   └── vector_store.py         # ChromaDB wrapper
-│   │
-│   └── pipeline/
-│       ├── index_builder.py        # Index construction pipeline
-│       └── ambedkargpt.py          # Main orchestrator
-│
-├── app.py                          # Interactive QA interface
-├── build_index.py                  # Index building script
-├── config.yaml                     # System configuration
-├── requirements.txt                # Python dependencies
-└── README.md
-```
-
----
-
-## Requirements
-
-### System
-- Python 3.10+
-- Ollama (running locally)
-
-### LLM
-- Tested with: Mistral 7B and llama3.2
-
-```bash
-ollama pull mistral:7b
-```
-
----
-
-## Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Dino-1337/SEMRAG.git
-cd SEMRAG
-```
-
-### 2. Create and activate virtual environment
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Linux / macOS
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Download spaCy model
-```bash
-python -m spacy download en_core_web_lg
-```
-
----
-
-## Preparing the Corpus
-
-Place your primary PDF inside the project:
-
-```
-data/
-└── Ambedkar_works.pdf
-```
-
 ## Building the Index (Pipeline 1)
 
 This step:
@@ -188,3 +84,105 @@ The system is designed to:
 - Distinguish between:
   - Author's arguments
   - Theories the author explicitly rejects
+
+## Requirements
+
+### System
+- Python 3.10+
+- Ollama (running locally)
+
+### LLM
+- Tested with: Mistral 7B and llama3.2
+
+```bash
+ollama pull mistral:7b
+```
+
+---
+
+## Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Dino-1337/SEMRAG-Chat.git
+cd SEMRAG
+```
+
+### 2. Create and activate virtual environment
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download spaCy model
+```bash
+python -m spacy download en_core_web_lg
+```
+
+---
+
+## Preparing the Corpus
+
+Place your primary PDF inside the project:
+
+```
+data/
+└── Ambedkar_works.pdf
+```
+
+## Project Structure
+
+```
+SEMRAG/
+├── data/
+│   ├── Ambedkar_works.pdf          # Input corpus
+│   └── processed/                   # Generated artifacts
+│       # ChromaDB vector store
+│
+├── src/
+│   ├── chunking/
+│   │   ├── semantic_chunker.py     # Semantic text chunking
+│   │   └── buffer_merger.py        # Chunk merging logic
+│   │
+│   ├── graph/
+│   │   ├── entity_extractor.py     # NER + concept extraction
+│   │   ├── relationship_extractor.py
+│   │   ├── graph_builder.py        # NetworkX graph construction
+│   │   ├── community_detector.py   # Leiden/Louvain clustering
+│   │   └── summarizer.py           # LLM-based summaries
+│   │
+│   ├── retrieval/
+│   │   ├── local_search.py         # Chunk-level retrieval
+│   │   ├── global_search.py        # Community-level retrieval
+│   │   └── ranker.py               # Result fusion
+│   │
+│   ├── llm/
+│   │   ├── llm_client.py           # Ollama integration
+│   │   ├── prompt_templates.py     # Prompt engineering
+│   │   └── answer_generator.py     # Answer synthesis
+│   │
+│   ├── utils/
+│   │   ├── data_loader.py          # PDF text extraction
+│   │   ├── query_expander.py       # Query enhancement
+│   │   └── vector_store.py         # ChromaDB wrapper
+│   │
+│   └── pipeline/
+│       ├── index_builder.py        # Index construction pipeline
+│       └── ambedkargpt.py          # Main orchestrator
+│
+├── app.py                          # Interactive QA interface
+├── build_index.py                  # Index building script
+├── config.yaml                     # System configuration
+├── requirements.txt                # Python dependencies
+└── README.md
+```
