@@ -39,7 +39,8 @@ class AnswerGenerator:
         sections = []
         for i, c in enumerate(retrieved_chunks[:max_chunks], 1):
             text = c.text.strip().replace("\n", " ")
-            sections.append(f"[Chunk {i}] {text}")
+            # sections.append(f"[Chunk {i}] {text}")  # Uncomment to show chunk numbers in context
+            sections.append(text)
 
         context = "\n\n".join(sections)
 

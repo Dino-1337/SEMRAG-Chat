@@ -1,30 +1,22 @@
-# SEMRAG RAG System Configuration
-
-# Embedding Model
-embedding:
-  model_name: "all-MiniLM-L6-v2"
-  device: "cpu"  # or "cuda" if GPU available
-
-# LLM Configuration (Ollama)
+# LLM Configuration
 llm:
-  model: "mistral:7b"  # Using Mistral 7B for better reasoning
+  model: "mistral:7b"
   base_url: "http://localhost:11434"
   temperature: 0.7
   max_tokens: 1000
 
-# Semantic Chunking Parameters (Optimized for Long-Form Reasoning)
+# Semantic Chunking Parameters
 chunking:
-  similarity_threshold: 0.45   # Lower threshold = more aggressive merging for argument chains
-  max_chunk_tokens: 800        # Safety limit to prevent excessively large chunks
-  sub_chunk_tokens: 600        # Larger sub-chunks allow initial chunks to grow bigger
-  chunk_overlap: 128           # Overlap size for sub-chunking
-  buffer_size: 8               # Merge up to 9 adjacent chunks (targeting 450-650 tokens)
+  similarity_threshold: 0.45
+  max_chunk_tokens: 800
+  sub_chunk_tokens: 600
+  chunk_overlap: 128
+  buffer_size: 8
 
 # Knowledge Graph Parameters
 knowledge_graph:
-  entity_types: ["PERSON", "ORG", "GPE", "DATE", "EVENT", "WORK_OF_ART"]
   min_entity_frequency: 1
-  community_resolution: 1.0  # For Leiden algorithm
+  community_resolution: 1.0
 
 # Retrieval Parameters
 retrieval:
@@ -34,10 +26,4 @@ retrieval:
   global_search:
     top_k: 3
     similarity_threshold: 0.5
-  combine_strategy: "weighted"  # "weighted" or "union"
-
-# Data Paths
-data:
-  pdf_path: "data/Ambedkar_works.pdf"
-  cache_dir: ".cache"
-
+  combine_strategy: "weighted"

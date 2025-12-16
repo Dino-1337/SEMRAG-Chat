@@ -12,9 +12,8 @@ from src.pipeline.ambedkargpt import AmbedkarGPT
 
 
 def section(title):
-    print("\n" + "=" * 60)
-    print(title)
-    print("=" * 60)
+    print(f"\n{title}")
+    print("─" * len(title))
 
 
 def show_answer(result):
@@ -68,10 +67,6 @@ def main():
     print(f"Relations:    {stats['total_relationships']}")
     print(f"Communities:  {stats['communities']}")
 
-    print("\nCommands:")
-    print("  /help   Show commands")
-    print("  /stats  Show statistics")
-    print("  /exit   Quit")
     print()
 
     # Interactive loop

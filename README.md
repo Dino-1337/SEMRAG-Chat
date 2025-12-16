@@ -1,71 +1,82 @@
 # SEMRAG — Semantic + Knowledge Graph RAG System
 
-SEMRAG is a **research-grade Retrieval-Augmented Generation (RAG) system** built following the **SEMRAG research paper** architecture.  
-It is designed to answer questions **strictly grounded** in a provided text corpus, with strong safeguards against hallucination.
+SEMRAG is a research-grade Retrieval-Augmented Generation (RAG) system built following the SEMRAG research paper architecture. It is designed to answer questions strictly grounded in a provided text corpus, with strong safeguards against hallucination.
 
-The system processes a primary text corpus (PDF), builds a **semantic index and knowledge graph**, and answers queries using **local + global retrieval** with evidence-based synthesis.
-
----
-
-## 🔍 Key Features
-
-- 📄 **PDF-based corpus ingestion**
-- 🧠 **Semantic chunking** with contextual continuity
-- 🕸️ **Canonicalized knowledge graph** (entities + relationships)
-- 🧩 **Community detection & summarization**
-- 🔎 **Local RAG** (chunk-level semantic + graph-aware retrieval)
-- 🌍 **Global RAG** (community-level semantic retrieval)
-- ⚖️ **Weighted result ranking** (local + global fusion)
-- 🛡️ **Hallucination-resistant answering**
-- 📚 **Citation-backed answers**
+The system processes a primary text corpus (PDF), builds a semantic index and knowledge graph, and answers queries using local + global retrieval with evidence-based synthesis.
 
 ---
 
-## 🧱 Project Structure
+## Key Features
+
+- PDF-based corpus ingestion
+- Semantic chunking with contextual continuity
+- Canonicalized knowledge graph (entities + relationships)
+- Community detection and summarization
+- Local RAG (chunk-level semantic + graph-aware retrieval)
+- Global RAG (community-level semantic retrieval)
+- Weighted result ranking (local + global fusion)
+- Hallucination-resistant answering
+- Citation-backed answers
+
+---
+
+## Project Structure
 
 ```
-src/
-├── chunking/
-│   ├── semantic_chunker.py
-│   └── buffer_merger.py
+SEMRAG/
+├── data/
+│   ├── Ambedkar_works.pdf          # Input corpus
+│   └── processed/                   # Generated artifacts
+│       # ChromaDB vector store
 │
-├── graph/
-│   ├── entity_extractor.py
-│   ├── relationship_extractor.py
-│   ├── graph_builder.py
-│   ├── community_detector.py
-│   └── summarizer.py
+├── src/
+│   ├── chunking/
+│   │   ├── semantic_chunker.py     # Semantic text chunking
+│   │   └── buffer_merger.py        # Chunk merging logic
+│   │
+│   ├── graph/
+│   │   ├── entity_extractor.py     # NER + concept extraction
+│   │   ├── relationship_extractor.py
+│   │   ├── graph_builder.py        # NetworkX graph construction
+│   │   ├── community_detector.py   # Leiden/Louvain clustering
+│   │   └── summarizer.py           # LLM-based summaries
+│   │
+│   ├── retrieval/
+│   │   ├── local_search.py         # Chunk-level retrieval
+│   │   ├── global_search.py        # Community-level retrieval
+│   │   └── ranker.py               # Result fusion
+│   │
+│   ├── llm/
+│   │   ├── llm_client.py           # Ollama integration
+│   │   ├── prompt_templates.py     # Prompt engineering
+│   │   └── answer_generator.py     # Answer synthesis
+│   │
+│   ├── utils/
+│   │   ├── data_loader.py          # PDF text extraction
+│   │   ├── query_expander.py       # Query enhancement
+│   │   └── vector_store.py         # ChromaDB wrapper
+│   │
+│   └── pipeline/
+│       ├── index_builder.py        # Index construction pipeline
+│       └── ambedkargpt.py          # Main orchestrator
 │
-├── retrieval/
-│   ├── local_search.py
-│   ├── global_search.py
-│   └── ranker.py
-│
-├── llm/
-│   ├── llm_client.py
-│   ├── prompt_templates.py
-│   └── answer_generator.py
-│
-├── utils/
-│   ├── data_loader.py
-│   └── query_expander.py
-│
-└── pipeline/
-    ├── index_builder.py
-    └── ambedkargpt.py
+├── app.py                          # Interactive QA interface
+├── build_index.py                  # Index building script
+├── config.yaml                     # System configuration
+├── requirements.txt                # Python dependencies
+└── README.md
 ```
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ### System
-- Python **3.10+**
-- **Ollama** (running locally)
-- RAM: **8 GB minimum** (16 GB recommended)
+- Python 3.10+
+- Ollama (running locally)
 
 ### LLM
-- Tested with: **Mistral 7B**
+- Tested with: Mistral 7B and llama3.2
 
 ```bash
 ollama pull mistral:7b
@@ -73,7 +84,7 @@ ollama pull mistral:7b
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -99,25 +110,21 @@ pip install -r requirements.txt
 
 ### 4. Download spaCy model
 ```bash
-python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_lg
 ```
 
 ---
 
-## 📄 Preparing the Corpus
+## Preparing the Corpus
 
 Place your primary PDF inside the project:
 
 ```
 data/
-└── corpus.pdf
+└── Ambedkar_works.pdf
 ```
 
-⚠️ **Important**: This system is designed to be corpus-bounded. All answers are derived **only** from the provided PDF.
-
----
-
-## 🏗️ Building the Index (Pipeline 1)
+## Building the Index (Pipeline 1)
 
 This step:
 - Loads the PDF
@@ -131,25 +138,16 @@ This step:
 ```bash
 python build_index.py
 ```
+
 <img width="1824" height="901" alt="image" src="https://github.com/user-attachments/assets/75a64fe8-1912-4b68-ae24-4007109029c4" />
 
-Artifacts are stored in:
-```
-data/processed/
-├── chunks.json
-├── chunk_embeddings.npy
-├── entities.json
-├── knowledge_graph.pkl
-├── communities.json
-├── community_summaries.json
-└── metadata.json
-```
+Artifacts are stored in `data/processed/`
 
 ---
 
-## 💬 Running the QA System (Pipeline 2)
+## Running the QA System (Pipeline 2)
 
-Start the interactive app:
+Start the chat app:
 
 ```bash
 python app.py
@@ -168,66 +166,25 @@ Type `/exit` to quit.
 
 ---
 
-## 📌 Answer Format
+## Answer Format
 
 Each response includes:
-- **Synthesized answer**
-- **Top citations** (chunks)
-- **Search metadata**:
-  - local vs global matches
-  - entities involved
-  - communities used
+- Synthesized answer
+- Top citations (chunks with similarity scores)
+- Search metadata:
+  - Local vs global matches
+  - Entities involved
+  - Communities used
 
-This ensures **transparency and traceability**.
+This ensures transparency and traceability.
 
 ---
 
-## 🛡️ Hallucination Control
+## Hallucination Control
 
 The system is designed to:
-- ✅ Never use external knowledge
-- ✅ Clearly state when the corpus is insufficient
-- ✅ Distinguish between:
+- Never use external knowledge
+- Clearly state when the corpus is insufficient
+- Distinguish between:
   - Author's arguments
   - Theories the author explicitly rejects
-
----
-
-## 🔬 Intended Use
-
-- Academic research
-- Digital humanities
-- Political philosophy analysis
-- Explainable AI demonstrations
-- RAG system experimentation
-
----
-
-## 🚧 Limitations
-
-- Answers are limited to the provided corpus
-- Not intended for general-purpose QA
-- PDF quality affects extraction accuracy
-
----
-
-## 📜 License
-
-This project is intended for educational and research purposes.
-
----
-
-## ✨ Acknowledgements
-
-- **SEMRAG Research Paper** — architecture and methodology
-- **SentenceTransformers**
-- **spaCy**
-- **NetworkX**
-- **Ollama**
-- **Mistral AI**
-
----
-
-## 📬 Contact
-
-For questions or collaboration, open an issue or reach out via GitHub.
